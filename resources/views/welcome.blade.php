@@ -13,8 +13,6 @@
        <div id="app">
             <example-component></example-component>
        </div>
-       <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
