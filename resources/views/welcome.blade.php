@@ -10,10 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
      </head>
     <body>
-       <div id="root">
-           <ul>
-               <li v-for="skill in skills">@{{ skill }}</li>
-           </ul>
+       <div id="app">
+            <example-component></example-component>
        </div>
        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
