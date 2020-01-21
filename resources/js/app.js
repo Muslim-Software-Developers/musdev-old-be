@@ -1,21 +1,27 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+import Vue from 'vue'
+import router from './router/index'
+import App from './views/App'
+//import Vuetify from 'vuetify'
+import { sync } from 'vuex-router-sync'
+//import 'vuetify/dist/vuetify.min.css'
+import store from './Store/store'
+import Home from './components/Home'
+//import VueYouTubeEmbed from 'vue-youtube-embed'
+//import Panel from './components/Globals/Panel'
 
-require('./bootstrap');
-
-window.Vue = require('vue');
-
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.config.productionTip = false
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+sync(store, router)
 
 const app = new Vue({
     el: '#app',
+    router,
+    store,
+    template: '<App/>',
+    components: { App },
 });
