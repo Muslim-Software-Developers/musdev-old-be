@@ -1,4 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/_custom.css": "/css/_custom.css",
+    "/css/_ie-fix.css": "/css/_ie-fix.css",
+    "/css/_variables.css": "/css/_variables.css",
+    "/css/style.css": "/css/style.css",
+    "/css/vendors/_variables.css": "/css/vendors/_variables.css",
+    "/css/vendors/chartjs/chart.css": "/css/vendors/chartjs/chart.css"
 }
