@@ -6,12 +6,6 @@ const DefaultContainer = () => import('../containers/DefaultContainer')
 //Views
 const Dashboard = () => import('../views/Dashboard')
 
-const Colors = () => import('../views/theme/Colors')
-const Typography = () => import('../views/theme/Typography')
-
-const Charts = () => import('../views/Charts')
-const Widgets = () => import('../views/Widgets')
-
 // Views - Components
 const Cards = () => import('../views/base/Cards')
 const Forms = () => import('../views/base/Forms')
@@ -29,23 +23,6 @@ const Paginations = () => import('../views/base/Paginations')
 const Popovers = () => import('../views/base/Popovers')
 const ProgressBars = () => import('../views/base/ProgressBars')
 const Tooltips = () => import('../views/base/Tooltips')
-
-// Views - Buttons
-const StandardButtons = () => import('../views/buttons/StandardButtons')
-const ButtonGroups = () => import('../views/buttons/ButtonGroups')
-const Dropdowns = () => import('../views/buttons/Dropdowns')
-const BrandButtons = () => import('../views/buttons/BrandButtons')
-
-// Views - Icons
-const Flags = () => import('../views/icons/Flags')
-const FontAwesome = () => import('../views/icons/FontAwesome')
-const SimpleLineIcons = () => import('../views/icons/SimpleLineIcons')
-const CoreUIIcons = () => import('../views/icons/CoreUIIcons')
-
-// Views - Notifications
-const Alerts = () => import('../views/notifications/Alerts')
-const Badges = () => import('../views/notifications/Badges')
-const Modals = () => import('../views/notifications/Modals')
 
 // Views - Pages
 const Page404 = () => import('../views/pages/Page404')
@@ -80,36 +57,6 @@ function configRoutes() {
             path: 'dashboard',
             name: 'Dashboard',
             component: Dashboard
-          },
-          {
-            path: 'theme',
-            redirect: '/theme/colors',
-            name: 'Theme',
-            component: {
-              render (c) { return c('router-view') }
-            },
-            children: [
-              {
-                path: 'colors',
-                name: 'Colors',
-                component: Colors
-              },
-              {
-                path: 'typography',
-                name: 'Typography',
-                component: Typography
-              }
-            ]
-          },
-          {
-            path: 'charts',
-            name: 'Charts',
-            component: Charts
-          },
-          {
-            path: 'widgets',
-            name: 'Widgets',
-            component: Widgets
           },
           {
             path: 'users',
@@ -217,91 +164,6 @@ function configRoutes() {
                 path: 'tooltips',
                 name: 'Tooltips',
                 component: Tooltips
-              }
-            ]
-          },
-          {
-            path: 'buttons',
-            redirect: '/buttons/standard-buttons',
-            name: 'Buttons',
-            component: {
-              render (c) { return c('router-view') }
-            },
-            children: [
-              {
-                path: 'standard-buttons',
-                name: 'Standard Buttons',
-                component: StandardButtons
-              },
-              {
-                path: 'button-groups',
-                name: 'Button Groups',
-                component: ButtonGroups
-              },
-              {
-                path: 'dropdowns',
-                name: 'Dropdowns',
-                component: Dropdowns
-              },
-              {
-                path: 'brand-buttons',
-                name: 'Brand Buttons',
-                component: BrandButtons
-              }
-            ]
-          },
-          {
-            path: 'icons',
-            redirect: '/icons/font-awesome',
-            name: 'Icons',
-            component: {
-              render (c) { return c('router-view') }
-            },
-            children: [
-              {
-                path: 'coreui-icons',
-                name: 'CoreUI Icons',
-                component: CoreUIIcons
-              },
-              {
-                path: 'flags',
-                name: 'Flags',
-                component: Flags
-              },
-              {
-                path: 'font-awesome',
-                name: 'Font Awesome',
-                component: FontAwesome
-              },
-              {
-                path: 'simple-line-icons',
-                name: 'Simple Line Icons',
-                component: SimpleLineIcons
-              }
-            ]
-          },
-          {
-            path: 'notifications',
-            redirect: '/notifications/alerts',
-            name: 'Notifications',
-            component: {
-              render (c) { return c('router-view') }
-            },
-            children: [
-              {
-                path: 'alerts',
-                name: 'Alerts',
-                component: Alerts
-              },
-              {
-                path: 'badges',
-                name: 'Badges',
-                component: Badges
-              },
-              {
-                path: 'modals',
-                name: 'Modals',
-                component: Modals
               }
             ]
           }

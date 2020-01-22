@@ -1,14 +1,15 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[21],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Collapses.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Collapses.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Switches.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Switches.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _coreui_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @coreui/vue */ "./node_modules/@coreui/vue/dist/coreui-vue.esm.js");
 //
 //
 //
@@ -186,22 +187,304 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'collapses',
+  name: 'switches',
+  components: {
+    cSwitch: _coreui_vue__WEBPACK_IMPORTED_MODULE_0__["Switch"]
+  },
   data: function data() {
     return {
-      showCollapse: true,
-      text: "\n        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry\n        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor\n        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon\n        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla\n        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore\n        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher\n        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic\n        synth nesciunt you probably haven't heard of them accusamus labore VHS.\n      "
+      fields: [{
+        key: 'size'
+      }, {
+        key: 'example'
+      }, {
+        key: 'size_prop',
+        label: 'Size prop'
+      }],
+      items: [{
+        size: 'Large',
+        example: {
+          variant: '3d',
+          color: 'primary',
+          size: 'lg',
+          checked: true
+        },
+        size_prop: 'Add following prop <code>size="lg"</code>'
+      }, {
+        size: 'Normal',
+        example: {
+          variant: '3d',
+          color: 'primary',
+          size: '',
+          checked: true
+        },
+        size_prop: '-'
+      }, {
+        size: 'Small',
+        example: {
+          variant: '3d',
+          color: 'primary',
+          size: 'sm',
+          checked: true
+        },
+        size_prop: 'Add following prop <code>size="sm"</code>'
+      }],
+      checker: 'yes',
+      picker: '',
+      labelIcon: {
+        dataOn: "\u2713",
+        dataOff: "\u2715"
+      },
+      labelTxt: {
+        dataOn: 'yes',
+        dataOff: 'no'
+      }
     };
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172&":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172& ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de& ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -213,622 +496,3005 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "wrapper" }, [
-    _c(
-      "div",
-      { staticClass: "animated fadeIn" },
-      [
-        _c(
-          "b-row",
-          [
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Bootstrap Collapse ")]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "card-header-actions" }, [
-                        _c(
-                          "a",
+  return _c(
+    "div",
+    { staticClass: "animated fadeIn" },
+    [
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c(
+                    "div",
+                    { attrs: { slot: "header" }, slot: "header" },
+                    [
+                      _vm._v("\n          Switch default\n          "),
+                      _c("b-badge", { attrs: { variant: "primary" } }, [
+                        _vm._v(_vm._s(_vm.checker))
+                      ])
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      name: "switch1",
+                      value: "yes",
+                      uncheckedValue: "no"
+                    },
+                    model: {
+                      value: _vm.checker,
+                      callback: function($$v) {
+                        _vm.checker = $$v
+                      },
+                      expression: "checker"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", disabled: "" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch pills\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "", variant: "pill" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", disabled: "", variant: "pill" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "", variant: "3d" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", disabled: "", variant: "3d" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch "),
+                    _c("small", [_c("code", [_vm._v("disabled")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      variant: "3d",
+                      disabled: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", disabled: "", variant: "3d" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch "),
+                    _c("small", [_c("code", [_vm._v('outline="alt"')])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      disabled: "",
+                      variant: "3d",
+                      outline: "alt"
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch "),
+                    _c("small", [_c("code", [_vm._v("label")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          defaultChecked: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          disabled: "",
+                          variant: "3d",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch "),
+                    _c("small", [_c("code", [_vm._v('outline="alt" label')])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          defaultChecked: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          disabled: "",
+                          variant: "3d",
+                          outline: "alt",
+                          label: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          3d Switch "),
+                    _c("small", [_c("code", [_vm._v('outline="alt" label')])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      defaultChecked: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      disabled: "",
+                      variant: "3d",
+                      outline: "alt",
+                      label: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "", outline: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", outline: "", disabled: "" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [
+                      _c("code", [_vm._v('outline variant="pill"')])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      outline: "",
+                      variant: "pill",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v('outline="alt"')])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "", outline: "alt" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", outline: "alt", disabled: "" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [
+                      _c("code", [_vm._v('outline="alt" variant="pill"')])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      outline: "alt",
+                      variant: "pill",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "secondary", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "success", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "warning", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "info", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "danger", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "light", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "dark", checked: "", label: "" }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: { color: "primary", label: "", disabled: "" }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v('label variant="pill"')])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      label: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      label: "",
+                      variant: "pill",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      label: "",
+                      outline: ""
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      label: "",
+                      outline: "",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      label: "",
+                      outline: "",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      label: "",
+                      outline: "",
+                      variant: "pill",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      label: "",
+                      outline: "alt"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      label: "",
+                      outline: "alt",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "secondary",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "success",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "warning",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "info",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "danger",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "light",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "dark",
+                      checked: "",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      label: "",
+                      outline: "alt",
+                      variant: "pill",
+                      disabled: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label")])])
+                  ]),
+                  _vm._v(" "),
+                  _c("c-switch", {
+                    staticClass: "mx-1",
+                    attrs: {
+                      color: "primary",
+                      checked: "",
+                      label: "",
+                      dataOn: "yes",
+                      dataOff: "no"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "secondary", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "success", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "warning", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "info", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "danger", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "light", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "dark", checked: "", label: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: { color: "primary", label: "", disabled: "" }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v('label variant="pill"')])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          checked: "",
+                          label: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          label: "",
+                          variant: "pill",
+                          disabled: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          checked: "",
+                          label: "",
+                          outline: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          label: "",
+                          outline: "",
+                          disabled: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          checked: "",
+                          label: "",
+                          outline: "",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          label: "",
+                          outline: "",
+                          variant: "pill",
+                          disabled: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          checked: "",
+                          label: "",
+                          outline: "alt"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          label: "",
+                          outline: "alt",
+                          disabled: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { xs: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Switch "),
+                    _c("small", [_c("code", [_vm._v("label outline")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelTxt,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "secondary",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "success",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "warning",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "info",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "danger",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "light",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "dark",
+                          checked: "",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill"
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "c-switch",
+                    _vm._b(
+                      {
+                        staticClass: "mx-1",
+                        attrs: {
+                          color: "primary",
+                          label: "",
+                          outline: "alt",
+                          variant: "pill",
+                          disabled: ""
+                        }
+                      },
+                      "c-switch",
+                      _vm.labelIcon,
+                      false
+                    )
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "12" } },
+            [
+              _c(
+                "b-card",
+                { attrs: { "no-body": "" } },
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Sizes\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-card-body",
+                    { staticClass: "p-0" },
+                    [
+                      _c("b-table", {
+                        staticClass: "table-align-middle mb-0",
+                        attrs: {
+                          hover: "",
+                          striped: "",
+                          responsive: "sm",
+                          items: _vm.items,
+                          fields: _vm.fields
+                        },
+                        scopedSlots: _vm._u([
                           {
-                            staticClass: "card-header-action",
-                            attrs: {
-                              href:
-                                "https://bootstrap-vue.js.org/docs/components/collapse",
-                              rel: "noreferrer noopener",
-                              target: "_blank"
+                            key: "example",
+                            fn: function(data) {
+                              return [
+                                _c("c-switch", {
+                                  attrs: {
+                                    variant: data.value.variant,
+                                    color: data.value.color,
+                                    size: data.value.size,
+                                    checked: data.value.checked
+                                  }
+                                })
+                              ]
                             }
                           },
-                          [
-                            _c("small", { staticClass: "text-muted" }, [
-                              _vm._v("docs")
-                            ])
-                          ]
-                        )
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      [
-                        _c(
-                          "b-btn",
                           {
-                            directives: [
-                              {
-                                name: "b-toggle",
-                                rawName: "v-b-toggle.collapse1",
-                                modifiers: { collapse1: true }
-                              }
-                            ],
-                            attrs: { variant: "primary" }
-                          },
-                          [_vm._v("Toggle Collapse")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          { staticClass: "mt-2", attrs: { id: "collapse1" } },
-                          [
-                            _c(
-                              "b-card",
-                              [
-                                _c("p", { staticClass: "card-text" }, [
-                                  _vm._v("Collapse contents Here")
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "b-btn",
-                                  {
-                                    directives: [
-                                      {
-                                        name: "b-toggle",
-                                        rawName: "v-b-toggle.collapse1_inner",
-                                        modifiers: { collapse1_inner: true }
-                                      }
-                                    ],
-                                    attrs: { size: "sm" }
-                                  },
-                                  [_vm._v("Toggle Inner Collapse")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "b-collapse",
-                                  {
-                                    staticClass: "mt-2",
-                                    attrs: { id: "collapse1_inner" }
-                                  },
-                                  [_c("b-card", [_vm._v("Hello!")])],
-                                  1
-                                )
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Collapse ")]),
-                      _vm._v(" "),
-                      _c("small", [
-                        _vm._v("with "),
-                        _c("code", [_vm._v("v-b-toggle")]),
-                        _vm._v(" directive")
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      [
-                        _c(
-                          "b-btn",
-                          {
-                            directives: [
-                              {
-                                name: "b-toggle",
-                                rawName: "v-b-toggle.collapse2",
-                                modifiers: { collapse2: true }
-                              }
-                            ],
-                            staticClass: "m-1"
-                          },
-                          [_vm._v("Toggle Collapse")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-btn",
-                          {
-                            directives: [
-                              {
-                                name: "b-toggle",
-                                rawName: "v-b-toggle",
-                                value: "collapse2",
-                                expression: "'collapse2'"
-                              }
-                            ],
-                            staticClass: "m-1"
-                          },
-                          [_vm._v("Toggle Collapse")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          { attrs: { id: "collapse2" } },
-                          [
-                            _c("b-card", [
-                              _vm._v(
-                                "\n                I am collapsible content!\n              "
-                              )
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "b-row",
-          [
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Collapse ")]),
-                      _vm._v(" "),
-                      _c("small", [
-                        _vm._v("with "),
-                        _c("code", [_vm._v("visibility")])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      [
-                        _c(
-                          "b-btn",
-                          {
-                            directives: [
-                              {
-                                name: "b-toggle",
-                                rawName: "v-b-toggle.collapse3",
-                                modifiers: { collapse3: true }
-                              }
-                            ],
-                            staticClass: "m-1"
-                          },
-                          [_vm._v("Toggle Collapse")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          { attrs: { visible: "", id: "collapse3" } },
-                          [
-                            _c("b-card", [
-                              _vm._v(
-                                "\n                I should start open!\n              "
-                              )
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Collapse ")]),
-                      _vm._v(" "),
-                      _c("small", [
-                        _vm._v("with "),
-                        _c("code", [_vm._v("v-model")])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      [
-                        _c(
-                          "b-btn",
-                          {
-                            class: _vm.showCollapse ? "collapsed" : null,
-                            attrs: {
-                              "aria-controls": "collapse4",
-                              "aria-expanded": _vm.showCollapse
-                                ? "true"
-                                : "false"
-                            },
-                            on: {
-                              click: function($event) {
-                                _vm.showCollapse = !_vm.showCollapse
-                              }
+                            key: "size_prop",
+                            fn: function(data) {
+                              return [
+                                _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(data.item.size_prop)
+                                  }
+                                })
+                              ]
                             }
-                          },
-                          [
-                            _vm._v(
-                              "\n              Toggle Collapse\n            "
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          {
-                            staticClass: "mt-2",
-                            attrs: { id: "collapse4" },
-                            model: {
-                              value: _vm.showCollapse,
-                              callback: function($$v) {
-                                _vm.showCollapse = $$v
-                              },
-                              expression: "showCollapse"
-                            }
-                          },
-                          [
-                            _c("b-card", [
-                              _vm._v(
-                                "\n                I should start open!\n              "
-                              )
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "b-row",
-          [
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Collapse ")]),
-                      _vm._v(" "),
-                      _c("small", [_vm._v("multiple elements")])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      [
-                        _c(
-                          "b-btn",
-                          {
-                            directives: [
-                              {
-                                name: "b-toggle",
-                                rawName: "v-b-toggle.collapseA.collapseB",
-                                modifiers: { collapseA: true, collapseB: true }
-                              }
-                            ]
-                          },
-                          [_vm._v("Toggle Both Collapse A and B")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          { staticClass: "mt-2", attrs: { id: "collapseA" } },
-                          [
-                            _c("b-card", [
-                              _vm._v(
-                                "\n                I am collapsable content A!\n              "
-                              )
-                            ])
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-collapse",
-                          { staticClass: "mt-2", attrs: { id: "collapseB" } },
-                          [
-                            _c("b-card", [
-                              _vm._v(
-                                "\n                I am collapsable content B!\n              "
-                              )
-                            ])
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "b-col",
-              { attrs: { cols: "12", md: "6" } },
-              [
-                _c(
-                  "b-card",
-                  { attrs: { "header-tag": "header", "footer-tag": "footer" } },
-                  [
-                    _c("div", { attrs: { slot: "header" }, slot: "header" }, [
-                      _c("i", { staticClass: "fa fa-align-justify" }),
-                      _c("strong", [_vm._v(" Collapse ")]),
-                      _vm._v(" "),
-                      _c("small", [
-                        _c("code", [_vm._v("accordion")]),
-                        _vm._v(" support")
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { attrs: { role: "tablist" } },
-                      [
-                        _c(
-                          "b-card",
-                          { staticClass: "mb-1", attrs: { "no-body": "" } },
-                          [
-                            _c(
-                              "b-card-header",
-                              {
-                                staticClass: "p-1",
-                                attrs: { "header-tag": "header", role: "tab" }
-                              },
-                              [
-                                _c(
-                                  "b-btn",
-                                  {
-                                    directives: [
-                                      {
-                                        name: "b-toggle",
-                                        rawName: "v-b-toggle.accordion1",
-                                        modifiers: { accordion1: true }
-                                      }
-                                    ],
-                                    attrs: {
-                                      block: "",
-                                      href: "#",
-                                      variant: "info"
-                                    }
-                                  },
-                                  [_vm._v("Accordion 1")]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-collapse",
-                              {
-                                attrs: {
-                                  id: "accordion1",
-                                  visible: "",
-                                  accordion: "my-accordion",
-                                  role: "tabpanel"
-                                }
-                              },
-                              [
-                                _c("b-card-body", [
-                                  _c("p", { staticClass: "card-text" }, [
-                                    _vm._v(
-                                      "\n                    I start opened because "
-                                    ),
-                                    _c("code", [_vm._v("visible")]),
-                                    _vm._v(" is "),
-                                    _c("code", [_vm._v("true")])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("p", { staticClass: "card-text" }, [
-                                    _vm._v(
-                                      "\n                    " +
-                                        _vm._s(_vm.text) +
-                                        "\n                  "
-                                    )
-                                  ])
-                                ])
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-card",
-                          { staticClass: "mb-1", attrs: { "no-body": "" } },
-                          [
-                            _c(
-                              "b-card-header",
-                              {
-                                staticClass: "p-1",
-                                attrs: { "header-tag": "header", role: "tab" }
-                              },
-                              [
-                                _c(
-                                  "b-btn",
-                                  {
-                                    directives: [
-                                      {
-                                        name: "b-toggle",
-                                        rawName: "v-b-toggle.accordion2",
-                                        modifiers: { accordion2: true }
-                                      }
-                                    ],
-                                    attrs: {
-                                      block: "",
-                                      href: "#",
-                                      variant: "info"
-                                    }
-                                  },
-                                  [_vm._v("Accordion 2")]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-collapse",
-                              {
-                                attrs: {
-                                  id: "accordion2",
-                                  accordion: "my-accordion",
-                                  role: "tabpanel"
-                                }
-                              },
-                              [
-                                _c("b-card-body", [
-                                  _c("p", { staticClass: "card-text" }, [
-                                    _vm._v(
-                                      "\n                    " +
-                                        _vm._s(_vm.text) +
-                                        "\n                  "
-                                    )
-                                  ])
-                                ])
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "b-card",
-                          { staticClass: "mb-1", attrs: { "no-body": "" } },
-                          [
-                            _c(
-                              "b-card-header",
-                              {
-                                staticClass: "p-1",
-                                attrs: { "header-tag": "header", role: "tab" }
-                              },
-                              [
-                                _c(
-                                  "b-btn",
-                                  {
-                                    directives: [
-                                      {
-                                        name: "b-toggle",
-                                        rawName: "v-b-toggle.accordion3",
-                                        modifiers: { accordion3: true }
-                                      }
-                                    ],
-                                    attrs: {
-                                      block: "",
-                                      href: "#",
-                                      variant: "info"
-                                    }
-                                  },
-                                  [_vm._v("Accordion 3")]
-                                )
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "b-collapse",
-                              {
-                                attrs: {
-                                  id: "accordion3",
-                                  accordion: "my-accordion",
-                                  role: "tabpanel"
-                                }
-                              },
-                              [
-                                _c("b-card-body", [
-                                  _c("p", { staticClass: "card-text" }, [
-                                    _vm._v(
-                                      "\n                    " +
-                                        _vm._s(_vm.text) +
-                                        "\n                  "
-                                    )
-                                  ])
-                                ])
-                              ],
-                              1
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ]
-                )
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ],
-      1
-    )
-  ])
+                          }
+                        ])
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -837,17 +3503,17 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/views/base/Collapses.vue":
-/*!***********************************************!*\
-  !*** ./resources/js/views/base/Collapses.vue ***!
-  \***********************************************/
+/***/ "./resources/js/views/base/Switches.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/views/base/Switches.vue ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Collapses.vue?vue&type=template&id=bd822172& */ "./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172&");
-/* harmony import */ var _Collapses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Collapses.vue?vue&type=script&lang=js& */ "./resources/js/views/base/Collapses.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Switches.vue?vue&type=template&id=eb1d43de& */ "./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de&");
+/* harmony import */ var _Switches_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Switches.vue?vue&type=script&lang=js& */ "./resources/js/views/base/Switches.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -857,9 +3523,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Collapses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Switches_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -869,38 +3535,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/views/base/Collapses.vue"
+component.options.__file = "resources/js/views/base/Switches.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/views/base/Collapses.vue?vue&type=script&lang=js&":
-/*!************************************************************************!*\
-  !*** ./resources/js/views/base/Collapses.vue?vue&type=script&lang=js& ***!
-  \************************************************************************/
+/***/ "./resources/js/views/base/Switches.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/views/base/Switches.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Collapses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Collapses.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Collapses.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Collapses_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Switches_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Switches.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Switches.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Switches_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172& ***!
-  \******************************************************************************/
+/***/ "./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de& ***!
+  \*****************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Collapses.vue?vue&type=template&id=bd822172& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Collapses.vue?vue&type=template&id=bd822172&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Switches.vue?vue&type=template&id=eb1d43de& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Switches.vue?vue&type=template&id=eb1d43de&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Collapses_vue_vue_type_template_id_bd822172___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Switches_vue_vue_type_template_id_eb1d43de___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

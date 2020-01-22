@@ -1,20 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[9],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Charts.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Charts.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Forms.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _charts_BarExample__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./charts/BarExample */ "./resources/js/views/charts/BarExample.vue");
-/* harmony import */ var _charts_LineExample__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./charts/LineExample */ "./resources/js/views/charts/LineExample.vue");
-/* harmony import */ var _charts_DoughnutExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./charts/DoughnutExample */ "./resources/js/views/charts/DoughnutExample.vue");
-/* harmony import */ var _charts_RadarExample__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./charts/RadarExample */ "./resources/js/views/charts/RadarExample.vue");
-/* harmony import */ var _charts_PieExample__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./charts/PieExample */ "./resources/js/views/charts/PieExample.vue");
-/* harmony import */ var _charts_PolarAreaExample__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./charts/PolarAreaExample */ "./resources/js/views/charts/PolarAreaExample.vue");
 //
 //
 //
@@ -51,600 +45,1075 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
-
-
-
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'charts',
-  components: {
-    BarExample: _charts_BarExample__WEBPACK_IMPORTED_MODULE_0__["default"],
-    LineExample: _charts_LineExample__WEBPACK_IMPORTED_MODULE_1__["default"],
-    DoughnutExample: _charts_DoughnutExample__WEBPACK_IMPORTED_MODULE_2__["default"],
-    RadarExample: _charts_RadarExample__WEBPACK_IMPORTED_MODULE_3__["default"],
-    PieExample: _charts_PieExample__WEBPACK_IMPORTED_MODULE_4__["default"],
-    PolarAreaExample: _charts_PolarAreaExample__WEBPACK_IMPORTED_MODULE_5__["default"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @coreui/coreui-plugin-chartjs-custom-tooltips */ "./node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/umd/custom-tooltips.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__);
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Bar"],
-  mounted: function mounted() {
-    // Overwriting base render method with actual data.
-    this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-      datasets: [{
-        label: 'GitHub Commits',
-        backgroundColor: '#f87979',
-        data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: true,
-      tooltips: {
-        enabled: false,
-        custom: _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__["CustomTooltips"],
-        intersect: true,
-        mode: 'index',
-        position: 'nearest',
-        callbacks: {
-          labelColor: function labelColor(tooltipItem, chart) {
-            return {
-              backgroundColor: chart.data.datasets[tooltipItem.datasetIndex].backgroundColor
-            };
-          }
-        }
-      }
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Doughnut"],
-  mounted: function mounted() {
-    this.renderChart({
-      labels: ['VueJs', 'EmberJs', 'ReactJs', 'AngularJs'],
-      datasets: [{
-        backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
-        data: [40, 20, 80, 10]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: true
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @coreui/coreui-plugin-chartjs-custom-tooltips */ "./node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/umd/custom-tooltips.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @coreui/coreui/dist/js/coreui-utilities */ "./node_modules/@coreui/coreui/dist/js/coreui-utilities.js");
-/* harmony import */ var _coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    hexToRgba: _coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2__["hexToRgba"],
-    CustomTooltips: _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__["CustomTooltips"]
+  name: 'forms',
+  data: function data() {
+    return {
+      selected: [],
+      // Must be an array reference!
+      show: true
+    };
   },
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Line"],
-  mounted: function mounted() {
-    this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-      datasets: [{
-        label: 'Data One',
-        backgroundColor: Object(_coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2__["hexToRgba"])('#E46651', 90),
-        data: [30, 39, 10, 50, 30, 70, 35]
-      }, {
-        label: 'Data Two',
-        backgroundColor: Object(_coreui_coreui_dist_js_coreui_utilities__WEBPACK_IMPORTED_MODULE_2__["hexToRgba"])('#00D8FF', 90),
-        data: [39, 80, 40, 35, 40, 20, 45]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: true,
-      tooltips: {
-        enabled: false,
-        custom: _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__["CustomTooltips"],
-        intersect: true,
-        mode: 'index',
-        position: 'nearest',
-        callbacks: {
-          labelColor: function labelColor(tooltipItem, chart) {
-            return {
-              backgroundColor: chart.data.datasets[tooltipItem.datasetIndex].backgroundColor
-            };
-          }
-        }
-      }
-    });
+  methods: {
+    click: function click() {// do nothing
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Pie"],
-  mounted: function mounted() {
-    this.renderChart({
-      labels: ['VueJs', 'EmberJs', 'ReactJs', 'AngularJs'],
-      datasets: [{
-        backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
-        data: [40, 20, 80, 10]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: true
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @coreui/coreui-plugin-chartjs-custom-tooltips */ "./node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/umd/custom-tooltips.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__);
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["PolarArea"],
-  mounted: function mounted() {
-    this.renderChart({
-      labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
-      datasets: [{
-        label: 'My First dataset',
-        backgroundColor: 'rgba(179,181,198,0.2)',
-        pointBackgroundColor: 'rgba(179,181,198,1)',
-        pointBorderColor: '#fff',
-        pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgba(179,181,198,1)',
-        data: [65, 59, 90, 81, 56, 55, 40]
-      }, {
-        label: 'My Second dataset',
-        backgroundColor: 'rgba(255,99,132,0.2)',
-        pointBackgroundColor: 'rgba(255,99,132,1)',
-        pointBorderColor: '#fff',
-        pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgba(255,99,132,1)',
-        data: [28, 48, 40, 19, 96, 27, 100]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: false,
-      tooltips: {
-        enabled: false,
-        custom: _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__["CustomTooltips"],
-        intersect: true,
-        mode: 'index',
-        position: 'nearest',
-        callbacks: {
-          labelColor: function labelColor(tooltipItem, chart) {
-            return {
-              backgroundColor: chart.data.datasets[tooltipItem.datasetIndex].backgroundColor
-            };
-          }
-        }
-      }
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_chartjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-chartjs */ "./node_modules/vue-chartjs/es/index.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @coreui/coreui-plugin-chartjs-custom-tooltips */ "./node_modules/@coreui/coreui-plugin-chartjs-custom-tooltips/dist/umd/custom-tooltips.js");
-/* harmony import */ var _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__);
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  extends: vue_chartjs__WEBPACK_IMPORTED_MODULE_0__["Radar"],
-  mounted: function mounted() {
-    this.renderChart({
-      labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
-      datasets: [{
-        label: '2017',
-        backgroundColor: 'rgba(179,181,198,0.2)',
-        borderColor: 'rgba(179,181,198,1)',
-        pointBackgroundColor: 'rgba(179,181,198,1)',
-        pointBorderColor: '#fff',
-        pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgba(179,181,198,1)',
-        data: [65, 59, 90, 81, 56, 55, 40]
-      }, {
-        label: '2018',
-        backgroundColor: 'rgba(255,99,132,0.2)',
-        borderColor: 'rgba(255,99,132,1)',
-        pointBackgroundColor: 'rgba(255,99,132,1)',
-        pointBorderColor: '#fff',
-        pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: 'rgba(255,99,132,1)',
-        data: [28, 48, 40, 19, 96, 27, 100]
-      }]
-    }, {
-      responsive: true,
-      maintainAspectRatio: true,
-      tooltips: {
-        enabled: false,
-        custom: _coreui_coreui_plugin_chartjs_custom_tooltips__WEBPACK_IMPORTED_MODULE_1__["CustomTooltips"],
-        intersect: true,
-        mode: 'index',
-        position: 'nearest',
-        callbacks: {
-          labelColor: function labelColor(tooltipItem, chart) {
-            return {
-              backgroundColor: chart.data.datasets[tooltipItem.datasetIndex].borderColor
-            };
-          }
-        }
-      }
-    });
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
-/*!**************************************************!*\
-  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
-  \**************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--11-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var map = {
-	"./af": "./node_modules/moment/locale/af.js",
-	"./af.js": "./node_modules/moment/locale/af.js",
-	"./ar": "./node_modules/moment/locale/ar.js",
-	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
-	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
-	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
-	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
-	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
-	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
-	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
-	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
-	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
-	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
-	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
-	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
-	"./ar.js": "./node_modules/moment/locale/ar.js",
-	"./az": "./node_modules/moment/locale/az.js",
-	"./az.js": "./node_modules/moment/locale/az.js",
-	"./be": "./node_modules/moment/locale/be.js",
-	"./be.js": "./node_modules/moment/locale/be.js",
-	"./bg": "./node_modules/moment/locale/bg.js",
-	"./bg.js": "./node_modules/moment/locale/bg.js",
-	"./bm": "./node_modules/moment/locale/bm.js",
-	"./bm.js": "./node_modules/moment/locale/bm.js",
-	"./bn": "./node_modules/moment/locale/bn.js",
-	"./bn.js": "./node_modules/moment/locale/bn.js",
-	"./bo": "./node_modules/moment/locale/bo.js",
-	"./bo.js": "./node_modules/moment/locale/bo.js",
-	"./br": "./node_modules/moment/locale/br.js",
-	"./br.js": "./node_modules/moment/locale/br.js",
-	"./bs": "./node_modules/moment/locale/bs.js",
-	"./bs.js": "./node_modules/moment/locale/bs.js",
-	"./ca": "./node_modules/moment/locale/ca.js",
-	"./ca.js": "./node_modules/moment/locale/ca.js",
-	"./cs": "./node_modules/moment/locale/cs.js",
-	"./cs.js": "./node_modules/moment/locale/cs.js",
-	"./cv": "./node_modules/moment/locale/cv.js",
-	"./cv.js": "./node_modules/moment/locale/cv.js",
-	"./cy": "./node_modules/moment/locale/cy.js",
-	"./cy.js": "./node_modules/moment/locale/cy.js",
-	"./da": "./node_modules/moment/locale/da.js",
-	"./da.js": "./node_modules/moment/locale/da.js",
-	"./de": "./node_modules/moment/locale/de.js",
-	"./de-at": "./node_modules/moment/locale/de-at.js",
-	"./de-at.js": "./node_modules/moment/locale/de-at.js",
-	"./de-ch": "./node_modules/moment/locale/de-ch.js",
-	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
-	"./de.js": "./node_modules/moment/locale/de.js",
-	"./dv": "./node_modules/moment/locale/dv.js",
-	"./dv.js": "./node_modules/moment/locale/dv.js",
-	"./el": "./node_modules/moment/locale/el.js",
-	"./el.js": "./node_modules/moment/locale/el.js",
-	"./en-SG": "./node_modules/moment/locale/en-SG.js",
-	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
-	"./en-au": "./node_modules/moment/locale/en-au.js",
-	"./en-au.js": "./node_modules/moment/locale/en-au.js",
-	"./en-ca": "./node_modules/moment/locale/en-ca.js",
-	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
-	"./en-gb": "./node_modules/moment/locale/en-gb.js",
-	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
-	"./en-ie": "./node_modules/moment/locale/en-ie.js",
-	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
-	"./en-il": "./node_modules/moment/locale/en-il.js",
-	"./en-il.js": "./node_modules/moment/locale/en-il.js",
-	"./en-nz": "./node_modules/moment/locale/en-nz.js",
-	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
-	"./eo": "./node_modules/moment/locale/eo.js",
-	"./eo.js": "./node_modules/moment/locale/eo.js",
-	"./es": "./node_modules/moment/locale/es.js",
-	"./es-do": "./node_modules/moment/locale/es-do.js",
-	"./es-do.js": "./node_modules/moment/locale/es-do.js",
-	"./es-us": "./node_modules/moment/locale/es-us.js",
-	"./es-us.js": "./node_modules/moment/locale/es-us.js",
-	"./es.js": "./node_modules/moment/locale/es.js",
-	"./et": "./node_modules/moment/locale/et.js",
-	"./et.js": "./node_modules/moment/locale/et.js",
-	"./eu": "./node_modules/moment/locale/eu.js",
-	"./eu.js": "./node_modules/moment/locale/eu.js",
-	"./fa": "./node_modules/moment/locale/fa.js",
-	"./fa.js": "./node_modules/moment/locale/fa.js",
-	"./fi": "./node_modules/moment/locale/fi.js",
-	"./fi.js": "./node_modules/moment/locale/fi.js",
-	"./fo": "./node_modules/moment/locale/fo.js",
-	"./fo.js": "./node_modules/moment/locale/fo.js",
-	"./fr": "./node_modules/moment/locale/fr.js",
-	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
-	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
-	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
-	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
-	"./fr.js": "./node_modules/moment/locale/fr.js",
-	"./fy": "./node_modules/moment/locale/fy.js",
-	"./fy.js": "./node_modules/moment/locale/fy.js",
-	"./ga": "./node_modules/moment/locale/ga.js",
-	"./ga.js": "./node_modules/moment/locale/ga.js",
-	"./gd": "./node_modules/moment/locale/gd.js",
-	"./gd.js": "./node_modules/moment/locale/gd.js",
-	"./gl": "./node_modules/moment/locale/gl.js",
-	"./gl.js": "./node_modules/moment/locale/gl.js",
-	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
-	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
-	"./gu": "./node_modules/moment/locale/gu.js",
-	"./gu.js": "./node_modules/moment/locale/gu.js",
-	"./he": "./node_modules/moment/locale/he.js",
-	"./he.js": "./node_modules/moment/locale/he.js",
-	"./hi": "./node_modules/moment/locale/hi.js",
-	"./hi.js": "./node_modules/moment/locale/hi.js",
-	"./hr": "./node_modules/moment/locale/hr.js",
-	"./hr.js": "./node_modules/moment/locale/hr.js",
-	"./hu": "./node_modules/moment/locale/hu.js",
-	"./hu.js": "./node_modules/moment/locale/hu.js",
-	"./hy-am": "./node_modules/moment/locale/hy-am.js",
-	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
-	"./id": "./node_modules/moment/locale/id.js",
-	"./id.js": "./node_modules/moment/locale/id.js",
-	"./is": "./node_modules/moment/locale/is.js",
-	"./is.js": "./node_modules/moment/locale/is.js",
-	"./it": "./node_modules/moment/locale/it.js",
-	"./it-ch": "./node_modules/moment/locale/it-ch.js",
-	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
-	"./it.js": "./node_modules/moment/locale/it.js",
-	"./ja": "./node_modules/moment/locale/ja.js",
-	"./ja.js": "./node_modules/moment/locale/ja.js",
-	"./jv": "./node_modules/moment/locale/jv.js",
-	"./jv.js": "./node_modules/moment/locale/jv.js",
-	"./ka": "./node_modules/moment/locale/ka.js",
-	"./ka.js": "./node_modules/moment/locale/ka.js",
-	"./kk": "./node_modules/moment/locale/kk.js",
-	"./kk.js": "./node_modules/moment/locale/kk.js",
-	"./km": "./node_modules/moment/locale/km.js",
-	"./km.js": "./node_modules/moment/locale/km.js",
-	"./kn": "./node_modules/moment/locale/kn.js",
-	"./kn.js": "./node_modules/moment/locale/kn.js",
-	"./ko": "./node_modules/moment/locale/ko.js",
-	"./ko.js": "./node_modules/moment/locale/ko.js",
-	"./ku": "./node_modules/moment/locale/ku.js",
-	"./ku.js": "./node_modules/moment/locale/ku.js",
-	"./ky": "./node_modules/moment/locale/ky.js",
-	"./ky.js": "./node_modules/moment/locale/ky.js",
-	"./lb": "./node_modules/moment/locale/lb.js",
-	"./lb.js": "./node_modules/moment/locale/lb.js",
-	"./lo": "./node_modules/moment/locale/lo.js",
-	"./lo.js": "./node_modules/moment/locale/lo.js",
-	"./lt": "./node_modules/moment/locale/lt.js",
-	"./lt.js": "./node_modules/moment/locale/lt.js",
-	"./lv": "./node_modules/moment/locale/lv.js",
-	"./lv.js": "./node_modules/moment/locale/lv.js",
-	"./me": "./node_modules/moment/locale/me.js",
-	"./me.js": "./node_modules/moment/locale/me.js",
-	"./mi": "./node_modules/moment/locale/mi.js",
-	"./mi.js": "./node_modules/moment/locale/mi.js",
-	"./mk": "./node_modules/moment/locale/mk.js",
-	"./mk.js": "./node_modules/moment/locale/mk.js",
-	"./ml": "./node_modules/moment/locale/ml.js",
-	"./ml.js": "./node_modules/moment/locale/ml.js",
-	"./mn": "./node_modules/moment/locale/mn.js",
-	"./mn.js": "./node_modules/moment/locale/mn.js",
-	"./mr": "./node_modules/moment/locale/mr.js",
-	"./mr.js": "./node_modules/moment/locale/mr.js",
-	"./ms": "./node_modules/moment/locale/ms.js",
-	"./ms-my": "./node_modules/moment/locale/ms-my.js",
-	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
-	"./ms.js": "./node_modules/moment/locale/ms.js",
-	"./mt": "./node_modules/moment/locale/mt.js",
-	"./mt.js": "./node_modules/moment/locale/mt.js",
-	"./my": "./node_modules/moment/locale/my.js",
-	"./my.js": "./node_modules/moment/locale/my.js",
-	"./nb": "./node_modules/moment/locale/nb.js",
-	"./nb.js": "./node_modules/moment/locale/nb.js",
-	"./ne": "./node_modules/moment/locale/ne.js",
-	"./ne.js": "./node_modules/moment/locale/ne.js",
-	"./nl": "./node_modules/moment/locale/nl.js",
-	"./nl-be": "./node_modules/moment/locale/nl-be.js",
-	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
-	"./nl.js": "./node_modules/moment/locale/nl.js",
-	"./nn": "./node_modules/moment/locale/nn.js",
-	"./nn.js": "./node_modules/moment/locale/nn.js",
-	"./pa-in": "./node_modules/moment/locale/pa-in.js",
-	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
-	"./pl": "./node_modules/moment/locale/pl.js",
-	"./pl.js": "./node_modules/moment/locale/pl.js",
-	"./pt": "./node_modules/moment/locale/pt.js",
-	"./pt-br": "./node_modules/moment/locale/pt-br.js",
-	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
-	"./pt.js": "./node_modules/moment/locale/pt.js",
-	"./ro": "./node_modules/moment/locale/ro.js",
-	"./ro.js": "./node_modules/moment/locale/ro.js",
-	"./ru": "./node_modules/moment/locale/ru.js",
-	"./ru.js": "./node_modules/moment/locale/ru.js",
-	"./sd": "./node_modules/moment/locale/sd.js",
-	"./sd.js": "./node_modules/moment/locale/sd.js",
-	"./se": "./node_modules/moment/locale/se.js",
-	"./se.js": "./node_modules/moment/locale/se.js",
-	"./si": "./node_modules/moment/locale/si.js",
-	"./si.js": "./node_modules/moment/locale/si.js",
-	"./sk": "./node_modules/moment/locale/sk.js",
-	"./sk.js": "./node_modules/moment/locale/sk.js",
-	"./sl": "./node_modules/moment/locale/sl.js",
-	"./sl.js": "./node_modules/moment/locale/sl.js",
-	"./sq": "./node_modules/moment/locale/sq.js",
-	"./sq.js": "./node_modules/moment/locale/sq.js",
-	"./sr": "./node_modules/moment/locale/sr.js",
-	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
-	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
-	"./sr.js": "./node_modules/moment/locale/sr.js",
-	"./ss": "./node_modules/moment/locale/ss.js",
-	"./ss.js": "./node_modules/moment/locale/ss.js",
-	"./sv": "./node_modules/moment/locale/sv.js",
-	"./sv.js": "./node_modules/moment/locale/sv.js",
-	"./sw": "./node_modules/moment/locale/sw.js",
-	"./sw.js": "./node_modules/moment/locale/sw.js",
-	"./ta": "./node_modules/moment/locale/ta.js",
-	"./ta.js": "./node_modules/moment/locale/ta.js",
-	"./te": "./node_modules/moment/locale/te.js",
-	"./te.js": "./node_modules/moment/locale/te.js",
-	"./tet": "./node_modules/moment/locale/tet.js",
-	"./tet.js": "./node_modules/moment/locale/tet.js",
-	"./tg": "./node_modules/moment/locale/tg.js",
-	"./tg.js": "./node_modules/moment/locale/tg.js",
-	"./th": "./node_modules/moment/locale/th.js",
-	"./th.js": "./node_modules/moment/locale/th.js",
-	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
-	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
-	"./tlh": "./node_modules/moment/locale/tlh.js",
-	"./tlh.js": "./node_modules/moment/locale/tlh.js",
-	"./tr": "./node_modules/moment/locale/tr.js",
-	"./tr.js": "./node_modules/moment/locale/tr.js",
-	"./tzl": "./node_modules/moment/locale/tzl.js",
-	"./tzl.js": "./node_modules/moment/locale/tzl.js",
-	"./tzm": "./node_modules/moment/locale/tzm.js",
-	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
-	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
-	"./tzm.js": "./node_modules/moment/locale/tzm.js",
-	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
-	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
-	"./uk": "./node_modules/moment/locale/uk.js",
-	"./uk.js": "./node_modules/moment/locale/uk.js",
-	"./ur": "./node_modules/moment/locale/ur.js",
-	"./ur.js": "./node_modules/moment/locale/ur.js",
-	"./uz": "./node_modules/moment/locale/uz.js",
-	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
-	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
-	"./uz.js": "./node_modules/moment/locale/uz.js",
-	"./vi": "./node_modules/moment/locale/vi.js",
-	"./vi.js": "./node_modules/moment/locale/vi.js",
-	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
-	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
-	"./yo": "./node_modules/moment/locale/yo.js",
-	"./yo.js": "./node_modules/moment/locale/yo.js",
-	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
-	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
-	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
-	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
-	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
-	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
-};
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
 
 
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return map[req];
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+// module
+exports.push([module.i, "\n.fade-enter-active[data-v-292f2910],\n.fade-leave-active[data-v-292f2910] {\n  -webkit-transition: opacity 0.5s;\n  transition: opacity 0.5s;\n}\n.fade-enter[data-v-292f2910],\n.fade-leave-to[data-v-292f2910] {\n  opacity: 0;\n}\n", ""]);
+
+// exports
+
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4& ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--11-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--11-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--11-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--11-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -661,70 +1130,3935 @@ var render = function() {
     { staticClass: "animated fadeIn" },
     [
       _c(
-        "b-card-group",
-        { staticClass: "card-columns", attrs: { columns: "" } },
+        "b-row",
         [
-          _c("b-card", { attrs: { header: "Line Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [_c("line-example", { attrs: { chartId: "chart-line-01" } })],
-              1
-            )
-          ]),
+          _c(
+            "b-col",
+            { attrs: { sm: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Credit Card ")]),
+                    _vm._v(" "),
+                    _c("small", [_vm._v("Form")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "12" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "name" } }, [
+                                _vm._v("Name")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  id: "name",
+                                  placeholder: "Enter your name"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "12" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "ccnumber" } }, [
+                                _vm._v("Credit Card Number")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  id: "ccnumber",
+                                  placeholder: "0000 0000 0000 0000"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "4" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "month1" } }, [
+                                _vm._v("Month")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-select", {
+                                attrs: {
+                                  id: "month1",
+                                  plain: true,
+                                  options: [
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10,
+                                    11,
+                                    12
+                                  ]
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "4" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "year1" } }, [
+                                _vm._v("Year")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-select", {
+                                attrs: {
+                                  id: "year1",
+                                  plain: true,
+                                  options: [
+                                    2014,
+                                    2015,
+                                    2016,
+                                    2017,
+                                    2018,
+                                    2019,
+                                    2020,
+                                    2021,
+                                    2022,
+                                    2023,
+                                    2024,
+                                    2025
+                                  ]
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "4" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "cvv" } }, [
+                                _vm._v("CVV/CVC")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  id: "cvv",
+                                  placeholder: "123"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("b-card", { attrs: { header: "Bar Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [_c("bar-example", { attrs: { chartId: "chart-bar-01" } })],
-              1
-            )
-          ]),
+          _c(
+            "b-col",
+            { attrs: { sm: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Company ")]),
+                    _c("small", [_vm._v("Form")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c("label", { attrs: { for: "company" } }, [
+                        _vm._v("Company")
+                      ]),
+                      _vm._v(" "),
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "text",
+                          id: "company",
+                          placeholder: "Enter your company name"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c("label", { attrs: { for: "vat" } }, [_vm._v("VAT")]),
+                      _vm._v(" "),
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "text",
+                          id: "vat",
+                          placeholder: "PL1234567890"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c("label", { attrs: { for: "street" } }, [
+                        _vm._v("Street")
+                      ]),
+                      _vm._v(" "),
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "text",
+                          id: "street",
+                          placeholder: "Enter street name"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "8" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "city" } }, [
+                                _vm._v("City")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  id: "city",
+                                  placeholder: "Enter your city"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { sm: "4" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            [
+                              _c("label", { attrs: { for: "postal-code" } }, [
+                                _vm._v("Postal Code")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  id: "postal-code",
+                                  placeholder: "Postal Code"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c("label", { attrs: { for: "country" } }, [
+                        _vm._v("Country")
+                      ]),
+                      _vm._v(" "),
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "text",
+                          id: "country",
+                          placeholder: "Country name"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Basic Form")]),
+                    _vm._v(" Elements\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            description: "Let us know your full name.",
+                            label: "Enter your name",
+                            "label-for": "basicName",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "basicName",
+                              type: "text",
+                              autocomplete: "name"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Static",
+                            "label-for": "basicStatic",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              plaintext: "",
+                              id: "basicStatic",
+                              type: "text",
+                              value: "Username"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            description: "This is a help text",
+                            label: "Text Input",
+                            "label-for": "basicText",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "basicText",
+                              type: "text",
+                              placeholder: "Text"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Date",
+                            "label-for": "date",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "date", id: "date" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            description: "Please enter your email",
+                            label: "Email Input",
+                            "label-for": "basicEmail",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "basicEmail",
+                              type: "email",
+                              placeholder: "Enter your email",
+                              autocomplete: "email"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            description: "Please enter a complex password",
+                            label: "Password Input",
+                            "label-for": "basicPassword",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "basicPassword",
+                              type: "password",
+                              placeholder: "Enter your password",
+                              autocomplete: "current-password"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Disabled Input",
+                            "label-for": "basicInputDisabled",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "basicInputDisabled",
+                              type: "text",
+                              disabled: true,
+                              placeholder: "Disabled"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Textarea",
+                            "label-for": "basicTextarea",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-textarea", {
+                            attrs: {
+                              id: "basicTextarea",
+                              rows: 9,
+                              placeholder: "Content.."
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Select",
+                            "label-for": "basicSelect",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-select", {
+                            attrs: {
+                              id: "basicSelect",
+                              plain: true,
+                              options: [
+                                "Please select",
+                                "Option 1",
+                                "Option 2",
+                                "Option 3"
+                              ],
+                              value: "Please select"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Select large",
+                            "label-for": "basicSelectLg",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-select", {
+                            attrs: {
+                              id: "basicSelectLg",
+                              size: "lg",
+                              plain: true,
+                              options: [
+                                "Please select",
+                                "Option 1",
+                                "Option 2",
+                                "Option 3"
+                              ],
+                              value: "Please select"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Select small",
+                            "label-for": "basicSelectSm",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-select", {
+                            attrs: {
+                              id: "basicSelectSm",
+                              size: "sm",
+                              plain: true,
+                              options: [
+                                "Please select",
+                                "Option 1",
+                                "Option 2",
+                                "Option 3"
+                              ],
+                              value: "Please select"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Disabled select",
+                            "label-for": "basicSelectDisabled",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-select", {
+                            attrs: {
+                              id: "basicSelectDisabled",
+                              plain: true,
+                              options: [
+                                "Please select",
+                                "Option 1",
+                                "Option 2",
+                                "Option 3"
+                              ],
+                              disabled: true,
+                              value: "Please select"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Select",
+                            "label-for": "basicMultiSelect",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-select", {
+                            attrs: {
+                              id: "basicMultiSelect",
+                              plain: true,
+                              multiple: true,
+                              options: [
+                                {
+                                  text: "Please select some item",
+                                  value: null
+                                },
+                                {
+                                  text: "This is First option",
+                                  value: "a"
+                                },
+                                {
+                                  text: "Default Selected Option",
+                                  value: "b"
+                                },
+                                {
+                                  text: "This is another option",
+                                  value: "c"
+                                },
+                                {
+                                  text: "This one is disabled",
+                                  value: "d",
+                                  disabled: true
+                                }
+                              ],
+                              value: [null, "c"]
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Radios",
+                            "label-for": "basicRadios",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-radio-group", {
+                            attrs: {
+                              id: "basicRadios",
+                              plain: true,
+                              options: [
+                                { text: "Option 1 ", value: "1" },
+                                { text: "Option 2 ", value: "2" },
+                                { text: "Option 3 ", value: "3" }
+                              ],
+                              checked: "2",
+                              stacked: ""
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Inline radios",
+                            "label-for": "basicInlineRadios",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-radio-group", {
+                            attrs: {
+                              id: "basicInlineRadios",
+                              plain: true,
+                              options: [
+                                { text: "Option 1 ", value: "1" },
+                                { text: "Option 2 ", value: "2" },
+                                { text: "Option 3 ", value: "3" }
+                              ],
+                              checked: 3
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Checkboxes",
+                            "label-for": "basicCheckboxes",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-checkbox-group",
+                            {
+                              attrs: {
+                                stacked: "",
+                                id: "basicCheckboxes",
+                                name: "Checkboxes",
+                                plain: true,
+                                checked: [2, 3]
+                              }
+                            },
+                            [
+                              _c("b-form-checkbox", { attrs: { value: "1" } }, [
+                                _vm._v("Option 1")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-checkbox", { attrs: { value: "2" } }, [
+                                _vm._v("Option 2")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-checkbox", { attrs: { value: "3" } }, [
+                                _vm._v("Option 3")
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Inline checkboxes",
+                            "label-for": "basicInlineCheckboxes",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-checkbox-group",
+                            {
+                              attrs: {
+                                id: "basicInlineCheckboxes",
+                                name: "InlineCheckboxes",
+                                plain: true,
+                                checked: [1, 3]
+                              }
+                            },
+                            [
+                              _c(
+                                "b-form-checkbox",
+                                { attrs: { plain: true, value: "1" } },
+                                [_vm._v("Option 1")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-form-checkbox",
+                                { attrs: { plain: true, value: "2" } },
+                                [_vm._v("Option 2")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-form-checkbox",
+                                { attrs: { plain: true, value: "3" } },
+                                [_vm._v("Option 3")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Radios - custom",
+                            "label-for": "basicRadiosCustom",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-radio-group",
+                            {
+                              attrs: {
+                                id: "basicRadiosCustom",
+                                value: "1",
+                                stacked: ""
+                              }
+                            },
+                            [
+                              _c(
+                                "div",
+                                { staticClass: "custom-control custom-radio" },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadio1",
+                                      name: "customRadio",
+                                      value: "1"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadio1" }
+                                    },
+                                    [_vm._v("Option 1")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "custom-control custom-radio" },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadio2",
+                                      name: "customRadio",
+                                      value: "2",
+                                      checked: ""
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadio2" }
+                                    },
+                                    [_vm._v("Option 2")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "custom-control custom-radio" },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadio3",
+                                      name: "customRadio",
+                                      value: "3"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadio3" }
+                                    },
+                                    [_vm._v("Option 3")]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Inline radios - custom",
+                            "label-for": "basicCustomRadios1",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-radio-group",
+                            {
+                              attrs: {
+                                id: "basicCustomRadios1",
+                                name: "customRadioInline1"
+                              }
+                            },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-radio custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadioInline1",
+                                      name: "customRadioInline1",
+                                      value: "1"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadioInline1" }
+                                    },
+                                    [_vm._v("Option 1")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-radio custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadioInline2",
+                                      name: "customRadioInline1",
+                                      value: "2",
+                                      checked: ""
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadioInline2" }
+                                    },
+                                    [_vm._v("Option 2")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-radio custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "radio",
+                                      id: "customRadioInline3",
+                                      name: "customRadioInline1",
+                                      value: "3"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customRadioInline3" }
+                                    },
+                                    [_vm._v("Option 3")]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Checkboxes - custom",
+                            "label-for": "basicCustomCheckboxes",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-checkbox-group",
+                            {
+                              attrs: {
+                                stacked: "",
+                                id: "basicCustomCheckboxes"
+                              }
+                            },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "custom-control custom-checkbox"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customChk1",
+                                      value: "1",
+                                      checked: ""
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customChk1" }
+                                    },
+                                    [_vm._v("Option 1")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "custom-control custom-checkbox"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customChk2",
+                                      value: "2"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customChk2" }
+                                    },
+                                    [_vm._v("Option 2")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "custom-control custom-checkbox"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customChk3",
+                                      value: "3"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customChk3" }
+                                    },
+                                    [_vm._v("Option 3")]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Inline checkboxes - custom",
+                            "label-for": "basicInlineCustomCheckboxes",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c(
+                            "b-form-checkbox-group",
+                            { attrs: { id: "basicInlineCustomCheckboxes" } },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-checkbox custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customInChk1",
+                                      value: "1"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customInChk1" }
+                                    },
+                                    [_vm._v("Option 1")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-checkbox custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customInChk2",
+                                      value: "2",
+                                      checked: ""
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customInChk2" }
+                                    },
+                                    [_vm._v("Option 2")]
+                                  )
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "custom-control custom-checkbox custom-control-inline"
+                                },
+                                [
+                                  _c("input", {
+                                    staticClass: "custom-control-input",
+                                    attrs: {
+                                      type: "checkbox",
+                                      id: "customInChk3",
+                                      value: "3"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _c(
+                                    "label",
+                                    {
+                                      staticClass: "custom-control-label",
+                                      attrs: { for: "customInChk3" }
+                                    },
+                                    [_vm._v("Option 3")]
+                                  )
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "File input",
+                            "label-for": "fileInput",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-file", {
+                            attrs: { id: "fileInput", plain: true }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Multiple file input",
+                            "label-for": "fileInputMulti",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-file", {
+                            attrs: {
+                              id: "fileInputMulti",
+                              plain: true,
+                              multiple: true
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { attrs: { slot: "footer" }, slot: "footer" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "submit",
+                                size: "sm",
+                                variant: "primary"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                              _vm._v(" Submit")
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "reset",
+                                size: "sm",
+                                variant: "danger"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-ban" }),
+                              _vm._v(" Reset")
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Inline")]),
+                    _vm._v(" Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    { attrs: { inline: "" } },
+                    [
+                      _c(
+                        "label",
+                        {
+                          staticClass: "mr-sm-2",
+                          attrs: { for: "inlineInput1" }
+                        },
+                        [_vm._v("Name: ")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-input", {
+                        attrs: {
+                          id: "inlineInput1",
+                          type: "text",
+                          placeholder: "Jane Doe"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "label",
+                        {
+                          staticClass: "mx-sm-2",
+                          attrs: { for: "inlineInput2" }
+                        },
+                        [_vm._v("Email: ")]
+                      ),
+                      _vm._v(" "),
+                      _c("b-input", {
+                        attrs: {
+                          id: "inlineInput2",
+                          type: "email",
+                          placeholder: "jane.doe@example.com",
+                          autocomplete: "email"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "primary"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                          _vm._v(" Submit")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("b-card", { attrs: { header: "Doughnut Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [
-                _c("doughnut-example", {
-                  attrs: { chartId: "chart-doughnut-01" }
-                })
-              ],
-              1
-            )
-          ]),
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Horizontal")]),
+                    _vm._v(" Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Email",
+                            "label-for": "horizEmail",
+                            description: "Please enter your email.",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "horizEmail",
+                              type: "email",
+                              placeholder: "Enter Email..",
+                              autocomplete: "username email"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            label: "Password",
+                            "label-for": "horizPass",
+                            description: "Please enter your password.",
+                            "label-cols": 3
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "horizPass",
+                              type: "password",
+                              placeholder: "Enter Password..",
+                              autocomplete: "current-password"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { attrs: { slot: "footer" }, slot: "footer" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "submit",
+                                size: "sm",
+                                variant: "primary"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                              _vm._v(" Submit")
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "reset",
+                                size: "sm",
+                                variant: "danger"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-ban" }),
+                              _vm._v(" Reset")
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Normal")]),
+                    _vm._v(" Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            validated: "",
+                            label: "Email",
+                            "label-for": "normalEmail",
+                            description: "Please enter your email."
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "normalEmail",
+                              type: "email",
+                              placeholder: "Enter Email..",
+                              required: "",
+                              autocomplete: "email"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        {
+                          attrs: {
+                            validated: "",
+                            label: "Password",
+                            "label-for": "normalPass",
+                            description: "Please enter your password."
+                          }
+                        },
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              id: "normalPass",
+                              type: "password",
+                              placeholder: "Enter Password..",
+                              required: "",
+                              autocomplete: "current-password"
+                            }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { attrs: { slot: "footer" }, slot: "footer" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "submit",
+                                size: "sm",
+                                variant: "primary"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                              _vm._v(" Submit")
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "reset",
+                                size: "sm",
+                                variant: "danger"
+                              }
+                            },
+                            [
+                              _c("i", { staticClass: "fa fa-ban" }),
+                              _vm._v(" Reset")
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-card",
+                { attrs: { "no-body": "", "no-block": true } },
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Input "),
+                    _c("strong", [_vm._v("Grid")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-card-body",
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "3" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-3"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "4" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-4"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "5" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-5"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "6" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-6"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "7" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-7"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "8" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-8"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "9" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-9"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "10" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-10"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "11" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-11"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-row",
+                        { staticClass: "form-group" },
+                        [
+                          _c(
+                            "b-col",
+                            { attrs: { sm: "12" } },
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "text",
+                                  placeholder: ".col-sm-12"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "primary"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-user" }),
+                          _vm._v(" Login")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Input "),
+                    _c("strong", [_vm._v("Sizes")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: {
+                        label: "Small input",
+                        "label-for": "smInput",
+                        "label-size": "sm",
+                        "label-cols": 5
+                      }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "smInput",
+                          type: "text",
+                          size: "sm",
+                          placeholder: "size='sm'"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: {
+                        label: "Default input",
+                        "label-for": "defaultInput",
+                        "label-cols": 5
+                      }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "defaultInput",
+                          type: "text",
+                          placeholder: "normal"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: {
+                        label: "Large input",
+                        "label-for": "lgInput",
+                        "label-size": "lg",
+                        "label-cols": 5
+                      }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "lgInput",
+                          type: "text",
+                          size: "lg",
+                          placeholder: "size='lg'"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "primary"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                          _vm._v(" Submit")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { sm: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                { attrs: { "no-body": "", "no-block": true } },
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Validation feedback")]),
+                    _vm._v(" Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-card-body",
+                    [
+                      _c(
+                        "b-form",
+                        [
+                          _c(
+                            "b-form-group",
+                            { attrs: { validated: "" } },
+                            [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-form-label",
+                                  attrs: { for: "inputIsValid" }
+                                },
+                                [_vm._v("Input is valid")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control is-valid",
+                                attrs: { type: "text", id: "inputIsValid" }
+                              }),
+                              _vm._v(" "),
+                              _c("b-form-valid-feedback", [
+                                _vm._v(
+                                  "\n                Input is valid.\n              "
+                                )
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            [
+                              _c(
+                                "label",
+                                {
+                                  staticClass: "col-form-label",
+                                  attrs: { for: "inputIsInvalid" }
+                                },
+                                [_vm._v("Input is invalid")]
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                staticClass: "form-control is-invalid",
+                                attrs: { type: "text", id: "inputIsInvalid" }
+                              }),
+                              _vm._v(" "),
+                              _c("b-form-invalid-feedback", [
+                                _vm._v(
+                                  "\n                Please provide a valid information.\n              "
+                                )
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("b-card", { attrs: { header: "Radar Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [_c("radar-example", { attrs: { chartId: "chart-radar-01" } })],
-              1
-            )
-          ]),
+          _c(
+            "b-col",
+            { attrs: { sm: "12", md: "6" } },
+            [
+              _c(
+                "b-card",
+                { attrs: { "no-body": "", "no-block": true } },
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Validation feedback")]),
+                    _vm._v(" Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-card-body",
+                    [
+                      _c(
+                        "b-form",
+                        { attrs: { validated: "", novalidate: "" } },
+                        [
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                "label-for": "inputSuccess2",
+                                label: "Non-required input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-success",
+                                attrs: { type: "text", id: "inputSuccess2" }
+                              }),
+                              _vm._v(" "),
+                              _c("b-form-valid-feedback", [
+                                _vm._v(
+                                  "\n                Input is not required.\n              "
+                                )
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-form-group",
+                            {
+                              attrs: {
+                                "label-for": "inputError2",
+                                label: "Required input"
+                              }
+                            },
+                            [
+                              _c("b-form-input", {
+                                staticClass: "form-control-warning",
+                                attrs: {
+                                  type: "text",
+                                  id: "inputError2",
+                                  required: ""
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c("b-form-valid-feedback", [
+                                _vm._v(
+                                  "\n                Input provided.\n              "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("b-form-invalid-feedback", [
+                                _vm._v(
+                                  "\n                Please provide a required input.\n              "
+                                )
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Icon/Text")]),
+                    _vm._v(" Groups\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c("b-input-group-text", [
+                                _c("i", { staticClass: "fa fa-user" })
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: "Username" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              type: "email",
+                              placeholder: "Email",
+                              autocomplete: "email"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [
+                              _c("b-input-group-text", [
+                                _c("i", { staticClass: "fa fa-envelope-o" })
+                              ])
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c("b-input-group-text", [
+                                _c("i", { staticClass: "fa fa-euro" })
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", {
+                            attrs: {
+                              type: "text",
+                              placeholder: "ex. $1.000.000"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [_c("b-input-group-text", [_vm._v(".00")])],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "success"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                          _vm._v(" Submit")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("b-card", { attrs: { header: "Pie Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [_c("pie-example", { attrs: { chartId: "chart-pie-01" } })],
-              1
-            )
-          ]),
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Buttons")]),
+                    _vm._v(" Groups\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c(
+                                "b-button",
+                                { attrs: { variant: "primary" } },
+                                [
+                                  _c("i", { staticClass: "fa fa-search" }),
+                                  _vm._v(" Search\n              ")
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: "Username" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c("b-form-input", {
+                            attrs: {
+                              type: "email",
+                              placeholder: "Email",
+                              autocomplete: "email"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [
+                              _c(
+                                "b-button",
+                                { attrs: { variant: "primary" } },
+                                [_vm._v("Submit")]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c(
+                                "b-button",
+                                { attrs: { variant: "primary" } },
+                                [_c("i", { staticClass: "fa fa-facebook" })]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", {
+                            attrs: {
+                              type: "email",
+                              placeholder: "Email",
+                              autocomplete: "email"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [
+                              _c(
+                                "b-button",
+                                { attrs: { variant: "primary" } },
+                                [_c("i", { staticClass: "fa fa-twitter" })]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "success"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                          _vm._v(" Submit")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _c("b-card", { attrs: { header: "Polar Area Chart" } }, [
-            _c(
-              "div",
-              { staticClass: "chart-wrapper" },
-              [
-                _c("polar-area-example", {
-                  attrs: { chartId: "chart-polar-area-01" }
-                })
-              ],
-              1
-            )
-          ])
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _c("strong", [_vm._v("Dropdowns")]),
+                    _vm._v(" Groups\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c(
+                                "b-dropdown",
+                                {
+                                  attrs: { text: "Action", variant: "primary" }
+                                },
+                                [
+                                  _c("b-dropdown-item", [_vm._v("Action")]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Another action")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Something else here...")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { disabled: "" } },
+                                    [_vm._v("Disabled action")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", {
+                            attrs: { placeholder: "Username" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c("b-form-input", {
+                            attrs: { placeholder: "Email" }
+                          }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [
+                              _c(
+                                "b-dropdown",
+                                {
+                                  attrs: {
+                                    text: "Action",
+                                    variant: "primary",
+                                    right: ""
+                                  }
+                                },
+                                [
+                                  _c("b-dropdown-item", [_vm._v("Action")]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Another action")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Something else here...")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { disabled: "" } },
+                                    [_vm._v("Disabled action")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    [
+                      _c(
+                        "b-input-group",
+                        [
+                          _c(
+                            "b-input-group-prepend",
+                            [
+                              _c(
+                                "b-dropdown",
+                                {
+                                  attrs: {
+                                    text: "Split",
+                                    variant: "primary",
+                                    split: ""
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Action")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Another action")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Something else here...")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { disabled: "" } },
+                                    [_vm._v("Disabled action")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-form-input", { attrs: { placeholder: "..." } }),
+                          _vm._v(" "),
+                          _c(
+                            "b-input-group-append",
+                            [
+                              _c(
+                                "b-dropdown",
+                                {
+                                  attrs: {
+                                    text: "Action",
+                                    variant: "primary",
+                                    right: ""
+                                  }
+                                },
+                                [
+                                  _c("b-dropdown-item", [_vm._v("Action")]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Another action")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", [
+                                    _vm._v("Something else here...")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { disabled: "" } },
+                                    [_vm._v("Disabled action")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "success"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-dot-circle-o" }),
+                          _vm._v(" Submit")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "reset",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [
+                          _c("i", { staticClass: "fa fa-ban" }),
+                          _vm._v(" Reset")
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Use the grid for big devices! "),
+                    _c("small", [
+                      _c("code", [_vm._v(".col-lg-*")]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v(".col-md-*")]),
+                      _vm._v(" "),
+                      _c("code", [_vm._v(".col-sm-*")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { md: "8" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-8" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { md: "4" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-4" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { md: "7" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-7" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { md: "5" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-5" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { md: "6" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-6" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { md: "6" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-6" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { md: "5" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-5" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { md: "7" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-7" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { md: "4" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-4" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { md: "8" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-md-8" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "button",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn btn-sm btn-warning",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn btn-sm btn-info",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "button",
+                            size: "sm",
+                            variant: "success"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "6" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Input Grid for small devices! "),
+                    _c("small", [_c("code", [_vm._v(".col-*")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "4" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-4" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "8" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-8" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "5" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-5" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "7" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-7" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "6" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-6" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "6" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-6" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "7" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-5" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "5" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-5" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-row",
+                    { staticClass: "form-group" },
+                    [
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "8" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-8" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-col",
+                        { attrs: { cols: "4" } },
+                        [
+                          _c("b-form-input", {
+                            attrs: { type: "text", placeholder: ".col-4" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { attrs: { slot: "footer" }, slot: "footer" },
+                    [
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "submit",
+                            size: "sm",
+                            variant: "primary"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "button",
+                            size: "sm",
+                            variant: "danger"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn btn-sm btn-warning",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticClass: "btn btn-sm btn-info",
+                          attrs: { type: "button" }
+                        },
+                        [_vm._v("Action")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          attrs: {
+                            type: "button",
+                            size: "sm",
+                            variant: "success"
+                          }
+                        },
+                        [_vm._v("Action")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Example Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [
+                                  _c("b-input-group-text", [_vm._v("Username")])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", { attrs: { type: "text" } }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-user" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [_c("b-input-group-text", [_vm._v("Email")])],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: { type: "email", autocomplete: "email" }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-envelope" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [
+                                  _c("b-input-group-text", [_vm._v("Password")])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "password",
+                                  autocomplete: "current-password"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-asterisk" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group form-actions" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "submit",
+                                size: "sm",
+                                variant: "primary"
+                              }
+                            },
+                            [_vm._v("Submit")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Example Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c("b-form-input", {
+                                attrs: { type: "text", placeholder: "Username" }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-user" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "email",
+                                  placeholder: "Email",
+                                  autocomplete: "email"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-envelope" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "password",
+                                  placeholder: "Password",
+                                  autocomplete: "current-password"
+                                }
+                              }),
+                              _vm._v(" "),
+                              _c(
+                                "b-input-group-append",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-asterisk" })
+                                  ])
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group form-actions" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              staticClass: "btn btn-sm btn-secondary",
+                              attrs: { type: "submit" }
+                            },
+                            [_vm._v("Submit")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { md: "4" } },
+            [
+              _c(
+                "b-card",
+                [
+                  _c("div", { attrs: { slot: "header" }, slot: "header" }, [
+                    _vm._v("\n          Example Form\n        ")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form",
+                    [
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-user" })
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: { type: "text", placeholder: "Username" }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-envelope" })
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "email",
+                                  placeholder: "Email",
+                                  autocomplete: "email"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-form-group",
+                        [
+                          _c(
+                            "b-input-group",
+                            [
+                              _c(
+                                "b-input-group-prepend",
+                                [
+                                  _c("b-input-group-text", [
+                                    _c("i", { staticClass: "fa fa-asterisk" })
+                                  ])
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-form-input", {
+                                attrs: {
+                                  type: "password",
+                                  placeholder: "Password",
+                                  autocomplete: "current-password"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "form-group form-actions" },
+                        [
+                          _c(
+                            "b-button",
+                            {
+                              attrs: {
+                                type: "submit",
+                                size: "sm",
+                                variant: "success"
+                              }
+                            },
+                            [_vm._v("Submit")]
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        [
+          _c(
+            "b-col",
+            { attrs: { lg: "12" } },
+            [
+              _c(
+                "transition",
+                { attrs: { name: "fade" } },
+                [
+                  _vm.show
+                    ? _c(
+                        "b-card",
+                        { attrs: { "no-body": "" } },
+                        [
+                          _c(
+                            "div",
+                            { attrs: { slot: "header" }, slot: "header" },
+                            [
+                              _c("i", { staticClass: "fa fa-edit" }),
+                              _vm._v(" Form Elements\n            "),
+                              _c(
+                                "div",
+                                { staticClass: "card-header-actions" },
+                                [
+                                  _c(
+                                    "b-link",
+                                    {
+                                      staticClass:
+                                        "card-header-action btn-setting",
+                                      attrs: { href: "#" }
+                                    },
+                                    [_c("i", { staticClass: "icon-settings" })]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-link",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "b-toggle",
+                                          rawName: "v-b-toggle.collapse1",
+                                          modifiers: { collapse1: true }
+                                        }
+                                      ],
+                                      staticClass:
+                                        "card-header-action btn-minimize"
+                                    },
+                                    [_c("i", { staticClass: "icon-arrow-up" })]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-link",
+                                    {
+                                      staticClass:
+                                        "card-header-action btn-close",
+                                      attrs: { href: "#" },
+                                      on: {
+                                        click: function($event) {
+                                          _vm.show = !_vm.show
+                                        }
+                                      }
+                                    },
+                                    [_c("i", { staticClass: "icon-close" })]
+                                  )
+                                ],
+                                1
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-collapse",
+                            { attrs: { id: "collapse1", visible: "" } },
+                            [
+                              _c(
+                                "b-card-body",
+                                [
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Prepended text",
+                                        "label-for": "elementsEmail",
+                                        description: "Here's some help text"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "b-input-group",
+                                        [
+                                          _c(
+                                            "b-input-group-prepend",
+                                            [
+                                              _c("b-input-group-text", [
+                                                _vm._v("@")
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c("b-form-input", {
+                                            attrs: {
+                                              id: "elementsEmail",
+                                              type: "email",
+                                              autocomplete: "email"
+                                            }
+                                          })
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Appended text",
+                                        "label-for": "elementsAppend",
+                                        description: "Here's some help text"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "b-input-group",
+                                        [
+                                          _c("b-form-input", {
+                                            attrs: {
+                                              id: "elementsAppend",
+                                              type: "text"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-input-group-append",
+                                            [
+                                              _c("b-input-group-text", [
+                                                _vm._v(".00")
+                                              ])
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Append and prepend",
+                                        "label-for": "elementsPrependAppend",
+                                        description: "Here's some help text"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "b-input-group",
+                                        [
+                                          _c(
+                                            "b-input-group-prepend",
+                                            [
+                                              _c("b-input-group-text", [
+                                                _vm._v("$")
+                                              ])
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c("b-form-input", {
+                                            attrs: {
+                                              id: "elementsPrependAppend",
+                                              type: "text"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-input-group-append",
+                                            [
+                                              _c("b-input-group-text", [
+                                                _vm._v(".00")
+                                              ])
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Append with button",
+                                        "label-for": "elementsAppendButton",
+                                        description: "Here's some help text"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "b-input-group",
+                                        [
+                                          _c("b-form-input", {
+                                            attrs: {
+                                              id: "elementsAppendButton",
+                                              type: "text"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-input-group-append",
+                                            [
+                                              _c(
+                                                "b-button",
+                                                {
+                                                  attrs: { variant: "primary" }
+                                                },
+                                                [_vm._v("Go!")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-form-group",
+                                    {
+                                      attrs: {
+                                        label: "Two-buttons append",
+                                        "label-for": "elementsTwoButtons"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "b-input-group",
+                                        [
+                                          _c("b-form-input", {
+                                            attrs: {
+                                              id: "elementsTwoButtons",
+                                              type: "text"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-input-group-append",
+                                            [
+                                              _c(
+                                                "b-button",
+                                                {
+                                                  attrs: { variant: "primary" }
+                                                },
+                                                [_vm._v("Search")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "b-button",
+                                                {
+                                                  attrs: { variant: "danger" }
+                                                },
+                                                [_vm._v("Options")]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    { staticClass: "form-actions" },
+                                    [
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            type: "submit",
+                                            variant: "primary"
+                                          }
+                                        },
+                                        [_vm._v("Save changes")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "b-button",
+                                        {
+                                          attrs: {
+                                            type: "button",
+                                            variant: "secondary"
+                                          }
+                                        },
+                                        [_vm._v("Cancel")]
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    : _vm._e()
+                ],
+                1
+              )
+            ],
+            1
+          )
         ],
         1
       )
@@ -739,18 +5073,20 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./resources/js/views/Charts.vue":
-/*!***************************************!*\
-  !*** ./resources/js/views/Charts.vue ***!
-  \***************************************/
+/***/ "./resources/js/views/base/Forms.vue":
+/*!*******************************************!*\
+  !*** ./resources/js/views/base/Forms.vue ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Charts.vue?vue&type=template&id=21f7abb4& */ "./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4&");
-/* harmony import */ var _Charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Charts.vue?vue&type=script&lang=js& */ "./resources/js/views/Charts.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Forms.vue?vue&type=template&id=292f2910&scoped=true& */ "./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true&");
+/* harmony import */ var _Forms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Forms.vue?vue&type=script&lang=js& */ "./resources/js/views/base/Forms.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& */ "./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -758,353 +5094,69 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Forms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "292f2910",
   null
   
 )
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/views/Charts.vue"
+component.options.__file = "resources/js/views/base/Forms.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/views/Charts.vue?vue&type=script&lang=js&":
-/*!****************************************************************!*\
-  !*** ./resources/js/views/Charts.vue?vue&type=script&lang=js& ***!
-  \****************************************************************/
+/***/ "./resources/js/views/base/Forms.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/views/base/Forms.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Charts.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Charts.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Charts_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Forms.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4&":
-/*!**********************************************************************!*\
-  !*** ./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4& ***!
-  \**********************************************************************/
+/***/ "./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--11-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--11-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=style&index=0&id=292f2910&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_11_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_11_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_style_index_0_id_292f2910_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true& ***!
+  \**************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Charts.vue?vue&type=template&id=21f7abb4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Charts.vue?vue&type=template&id=21f7abb4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Forms.vue?vue&type=template&id=292f2910&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/base/Forms.vue?vue&type=template&id=292f2910&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Charts_vue_vue_type_template_id_21f7abb4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Forms_vue_vue_type_template_id_292f2910_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/BarExample.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/views/charts/BarExample.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _BarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BarExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _BarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/BarExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./BarExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/BarExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/DoughnutExample.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/views/charts/DoughnutExample.vue ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DoughnutExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DoughnutExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _DoughnutExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/DoughnutExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DoughnutExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./DoughnutExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/DoughnutExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DoughnutExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/LineExample.vue":
-/*!***************************************************!*\
-  !*** ./resources/js/views/charts/LineExample.vue ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _LineExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LineExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _LineExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/LineExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LineExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./LineExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/LineExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LineExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/PieExample.vue":
-/*!**************************************************!*\
-  !*** ./resources/js/views/charts/PieExample.vue ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _PieExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PieExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _PieExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/PieExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PieExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./PieExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/PieExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PieExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/PolarAreaExample.vue":
-/*!********************************************************!*\
-  !*** ./resources/js/views/charts/PolarAreaExample.vue ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _PolarAreaExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PolarAreaExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _PolarAreaExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/PolarAreaExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************!*\
-  !*** ./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PolarAreaExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./PolarAreaExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/PolarAreaExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PolarAreaExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/RadarExample.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/views/charts/RadarExample.vue ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _RadarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./RadarExample.vue?vue&type=script&lang=js& */ "./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  _RadarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
-  render,
-  staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/charts/RadarExample.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RadarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./RadarExample.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/charts/RadarExample.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RadarExample_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ })
 
