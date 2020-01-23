@@ -11,7 +11,8 @@
           </template>
         </b-table>
         <template slot="footer">
-          <b-button @click="goBack">Back</b-button>
+          <b-button class="mr-auto" @click="goBack">Back</b-button>
+          <b-button class="ml-auto" @click="goBack">Accept</b-button>
         </template>
       </b-card>
     </b-col>

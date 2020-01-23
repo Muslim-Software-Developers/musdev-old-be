@@ -20,7 +20,7 @@ Vue.use(BootstrapVue)
 
 sync(store, router)
 
-const app = new Vue({ 
+new Vue({ 
     el: '#app',
     router,
     store,

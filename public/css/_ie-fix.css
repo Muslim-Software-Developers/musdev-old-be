@@ -1,3 +1,9 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .app {
+    height: 100%;
+  }
+}
+
 var map = {
 	"./af": "./node_modules/moment/locale/af.js",
 	"./af.js": "./node_modules/moment/locale/af.js",
@@ -273,9 +279,4 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .app {
-    height: 100%;
-  }
-}
-
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";

@@ -24,7 +24,7 @@
         </b-nav-item>
         <DefaultHeaderDropdownAccnt/>
       </b-navbar-nav>
-      <AsideToggler class="d-none d-lg-block" />
+      <div style="margin-right: 30px;"></div>
       <!--<AsideToggler class="d-lg-none" mobile />-->
     </AppHeader>
 </template>

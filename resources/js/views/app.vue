@@ -27,7 +27,7 @@ $simple-line-font-path: '~simple-line-icons/fonts/';
 </style>
 
 <style>
-.container{
+/* .container{
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,5 +38,5 @@ $simple-line-font-path: '~simple-line-icons/fonts/';
 
 .error {
     color: red;
-}
+} */
 </style>

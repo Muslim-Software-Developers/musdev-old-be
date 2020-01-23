@@ -4,6 +4,7 @@
       <transition name="slide">
       <b-card>
         <div slot="header" v-html="caption"></div>
+        <div class="row mr-auto ml-auto"> <h6>Review Accepted</h6> <c-switch class="mx-1" color="primary" checked label outline /> <h6>Pending Review</h6></div>
         <b-table :hover="hover" :striped="striped" :bordered="bordered" :small="small" :fixed="fixed" responsive="sm" :items="items" :fields="fields" :current-page="currentPage" :per-page="perPage" @row-clicked="rowClicked">
           <template slot="id" slot-scope="data">
             <strong>{{data.item.id}}</strong>
@@ -25,9 +26,14 @@
 </template>
 
 <script>
+import { Switch as cSwitch } from '@coreui/vue'
 import usersData from './UsersData'
+
 export default {
   name: 'Users',
+  components: {
+    cSwitch 
+  },
   props: {
     caption: {
       type: String,

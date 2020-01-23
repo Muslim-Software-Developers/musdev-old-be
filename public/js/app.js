@@ -32004,7 +32004,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.container{\n    font-family: 'Avenir', Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;  \n    margin-top: 60px;\n}\n.error {\n    color: red;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* .container{\n    font-family: 'Avenir', Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;  \n    margin-top: 60px;\n}\n\n.error {\n    color: red;\n} */\n", ""]);
 
 // exports
 
@@ -58520,7 +58520,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_3___default.a.config.productionTip = false;
 vue__WEBPACK_IMPORTED_MODULE_3___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
 Object(vuex_router_sync__WEBPACK_IMPORTED_MODULE_7__["sync"])(_Store_store__WEBPACK_IMPORTED_MODULE_8__["default"], _router_index__WEBPACK_IMPORTED_MODULE_5__["default"]);
-var app = new vue__WEBPACK_IMPORTED_MODULE_3___default.a({
+new vue__WEBPACK_IMPORTED_MODULE_3___default.a({
   el: '#app',
   router: _router_index__WEBPACK_IMPORTED_MODULE_5__["default"],
   store: _Store_store__WEBPACK_IMPORTED_MODULE_8__["default"],
@@ -58614,111 +58614,22 @@ __webpack_require__.r(__webpack_exports__);
  //containers
 
 var DefaultContainer = function DefaultContainer() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
 }; //Views
 
 
 var Dashboard = function Dashboard() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(28)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
-}; // Views - Components
-
-
-var Cards = function Cards() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/base/Cards */ "./resources/js/views/base/Cards.vue"));
-};
-
-var Forms = function Forms() {
-  return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ../views/base/Forms */ "./resources/js/views/base/Forms.vue"));
-};
-
-var Switches = function Switches() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, /*! ../views/base/Switches */ "./resources/js/views/base/Switches.vue"));
-};
-
-var Tables = function Tables() {
-  return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ../views/base/Tables */ "./resources/js/views/base/Tables.vue"));
-};
-
-var Tabs = function Tabs() {
-  return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! ../views/base/Tabs */ "./resources/js/views/base/Tabs.vue"));
-};
-
-var Breadcrumbs = function Breadcrumbs() {
-  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/base/Breadcrumbs */ "./resources/js/views/base/Breadcrumbs.vue"));
-};
-
-var Carousels = function Carousels() {
-  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/base/Carousels */ "./resources/js/views/base/Carousels.vue"));
-};
-
-var Collapses = function Collapses() {
-  return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ../views/base/Collapses */ "./resources/js/views/base/Collapses.vue"));
-};
-
-var Jumbotrons = function Jumbotrons() {
-  return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ../views/base/Jumbotrons */ "./resources/js/views/base/Jumbotrons.vue"));
-};
-
-var ListGroups = function ListGroups() {
-  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../views/base/ListGroups */ "./resources/js/views/base/ListGroups.vue"));
-};
-
-var Navs = function Navs() {
-  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../views/base/Navs */ "./resources/js/views/base/Navs.vue"));
-};
-
-var Navbars = function Navbars() {
-  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../views/base/Navbars */ "./resources/js/views/base/Navbars.vue"));
-};
-
-var Paginations = function Paginations() {
-  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../views/base/Paginations */ "./resources/js/views/base/Paginations.vue"));
-};
-
-var Popovers = function Popovers() {
-  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../views/base/Popovers */ "./resources/js/views/base/Popovers.vue"));
-};
-
-var ProgressBars = function ProgressBars() {
-  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/base/ProgressBars */ "./resources/js/views/base/ProgressBars.vue"));
-};
-
-var Tooltips = function Tooltips() {
-  return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! ../views/base/Tooltips */ "./resources/js/views/base/Tooltips.vue"));
-}; // Views - Pages
-
-
-var Page404 = function Page404() {
-  return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! ../views/pages/Page404 */ "./resources/js/views/pages/Page404.vue"));
-};
-
-var Page500 = function Page500() {
-  return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! ../views/pages/Page500 */ "./resources/js/views/pages/Page500.vue"));
-};
-
-var Login = function Login() {
-  return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! ../views/pages/Login */ "./resources/js/views/pages/Login.vue"));
-};
-
-var Register = function Register() {
-  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! ../views/pages/Register */ "./resources/js/views/pages/Register.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
 }; // Users
 
 
 var Users = function Users() {
-  return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
 };
 
 var User = function User() {
   return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/users/User */ "./resources/js/views/users/User.vue"));
-}; // import Home from '../components/Home'
-// import Register from '../components/Register'
-// import Login from '../components/Login'
-// import Songs from '../components/Songs/Index'
-// import CreateSong from '../components/CreateSong'
-// import ViewSong from '../components/ViewSong/Index'
-// import EditSong from '../components/EditSong'
-//import { homedir } from 'os';
+}; //import { homedir } from 'os';
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -58754,106 +58665,6 @@ function configRoutes() {
         name: 'User',
         component: User
       }]
-    }, {
-      path: 'base',
-      redirect: '/base/cards',
-      name: 'Base',
-      component: {
-        render: function render(c) {
-          return c('router-view');
-        }
-      },
-      children: [{
-        path: 'cards',
-        name: 'Cards',
-        component: Cards
-      }, {
-        path: 'forms',
-        name: 'Forms',
-        component: Forms
-      }, {
-        path: 'switches',
-        name: 'Switches',
-        component: Switches
-      }, {
-        path: 'tables',
-        name: 'Tables',
-        component: Tables
-      }, {
-        path: 'tabs',
-        name: 'Tabs',
-        component: Tabs
-      }, {
-        path: 'breadcrumbs',
-        name: 'Breadcrumbs',
-        component: Breadcrumbs
-      }, {
-        path: 'carousels',
-        name: 'Carousels',
-        component: Carousels
-      }, {
-        path: 'collapses',
-        name: 'Collapses',
-        component: Collapses
-      }, {
-        path: 'jumbotrons',
-        name: 'Jumbotrons',
-        component: Jumbotrons
-      }, {
-        path: 'list-groups',
-        name: 'List Groups',
-        component: ListGroups
-      }, {
-        path: 'navs',
-        name: 'Navs',
-        component: Navs
-      }, {
-        path: 'navbars',
-        name: 'Navbars',
-        component: Navbars
-      }, {
-        path: 'paginations',
-        name: 'Paginations',
-        component: Paginations
-      }, {
-        path: 'popovers',
-        name: 'Popovers',
-        component: Popovers
-      }, {
-        path: 'progress-bars',
-        name: 'Progress Bars',
-        component: ProgressBars
-      }, {
-        path: 'tooltips',
-        name: 'Tooltips',
-        component: Tooltips
-      }]
-    }]
-  }, {
-    path: '/pages',
-    redirect: '/pages/404',
-    name: 'Pages',
-    component: {
-      render: function render(c) {
-        return c('router-view');
-      }
-    },
-    children: [{
-      path: '404',
-      name: 'Page404',
-      component: Page404
-    }, {
-      path: '500',
-      name: 'Page500',
-      component: Page500
-    }, {
-      path: 'login',
-      name: 'Login',
-      component: Login
-    }, {
-      path: 'register',
-      name: 'Register',
-      component: Register
     }]
   }];
 }
