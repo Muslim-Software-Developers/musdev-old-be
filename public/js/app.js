@@ -58614,30 +58614,34 @@ __webpack_require__.r(__webpack_exports__);
  //containers
 
 var DefaultContainer = function DefaultContainer() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(0), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
+};
+
+var DefaultContainerFe = function DefaultContainerFe() {
+  return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(0), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainerFe */ "./resources/js/containers/DefaultContainerFe.vue"));
 }; //Views
 
 
 var Dashboard = function Dashboard() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(2), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, /*! ../views/admin/Dashboard */ "./resources/js/views/admin/Dashboard.vue"));
 }; // Users
 
 
 var Users = function Users() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../views/admin/users/Users */ "./resources/js/views/admin/users/Users.vue"));
 };
 
 var User = function User() {
-  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../views/users/User */ "./resources/js/views/users/User.vue"));
+  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../views/admin/users/User */ "./resources/js/views/admin/users/User.vue"));
 }; //Feedbacks
 
 
 var Feedbacks = function Feedbacks() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/feedbacks/Feedbacks */ "./resources/js/views/feedbacks/Feedbacks.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(1), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedbacks */ "./resources/js/views/admin/feedbacks/Feedbacks.vue"));
 };
 
 var Feedback = function Feedback() {
-  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/feedbacks/Feedback */ "./resources/js/views/feedbacks/Feedback.vue"));
+  return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedback */ "./resources/js/views/admin/feedbacks/Feedback.vue"));
 }; //import { homedir } from 'os';
 
 
@@ -58645,9 +58649,61 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 function configRoutes() {
   return [{
-    path: '/admin/',
-    redirect: '/dashboard',
+    path: '/',
+    redirect: '/home',
     name: 'Home',
+    component: DefaultContainerFe,
+    children: [{
+      path: 'home',
+      name: 'Frontend',
+      component: Dashboard
+    }, {
+      path: '/home/users',
+      meta: {
+        label: 'Users'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: Users
+      }, {
+        path: ':id',
+        meta: {
+          label: 'User Details'
+        },
+        name: 'User',
+        component: User
+      }]
+    }, {
+      path: '/home/feedbacks',
+      meta: {
+        label: 'Feedbacks'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: Feedbacks
+      }, {
+        path: ':id',
+        meta: {
+          label: 'Feedback Details'
+        },
+        name: 'Feedback',
+        component: Feedback
+      }]
+    }]
+  }, {
+    path: '/admin/',
+    redirect: '/admin/dashboard',
+    name: 'AdminHome',
     component: DefaultContainer,
     children: [{
       path: 'dashboard',

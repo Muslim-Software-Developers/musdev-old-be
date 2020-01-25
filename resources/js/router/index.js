@@ -3,16 +3,17 @@ import Router from 'vue-router'
 
 //containers
 const DefaultContainer = () => import('../containers/DefaultContainer')
+const DefaultContainerFe = () => import('../containers/DefaultContainerFe')
 //Views
-const Dashboard = () => import('../views/Dashboard')
+const Dashboard = () => import('../views/admin/Dashboard')
 
 // Users
-const Users = () => import('../views/users/Users')
-const User = () => import('../views/users/User')
+const Users = () => import('../views/admin/users/Users')
+const User = () => import('../views/admin/users/User')
 
 //Feedbacks
-const Feedbacks = () => import('../views/feedbacks/Feedbacks')
-const Feedback = () => import('../views/feedbacks/Feedback')
+const Feedbacks = () => import('../views/admin/feedbacks/Feedbacks')
+const Feedback = () => import('../views/admin/feedbacks/Feedback')
 
 //import { homedir } from 'os';
 
@@ -21,9 +22,60 @@ Vue.use(Router)
 function configRoutes() {
     return [
       {
-        path: '/admin/',
-        redirect: '/dashboard',
+        path: '/',
+        redirect: '/home',
         name: 'Home',
+        component: DefaultContainerFe,
+        children: [
+          {
+            path: 'home',
+            name: 'Frontend',
+            component: Dashboard
+          },
+          {
+            path: '/home/users',
+            meta: { label: 'Users'},
+            component: {
+              render (c) { return c('router-view') }
+            },
+            children: [
+              {
+                path: '',
+                component: Users,
+              },
+              {
+                path: ':id',
+                meta: { label: 'User Details'},
+                name: 'User',
+                component: User,
+              },
+            ]
+          },
+          {
+            path: '/home/feedbacks',
+            meta: { label: 'Feedbacks'},
+            component: {
+              render (c) { return c('router-view') }
+            },
+            children: [
+              {
+                path: '',
+                component: Feedbacks,
+              },
+              {
+                path: ':id',
+                meta: { label: 'Feedback Details'},
+                name: 'Feedback',
+                component: Feedback,
+              },
+            ]
+          }
+        ],
+      },
+      {
+        path: '/admin/',
+        redirect: '/admin/dashboard',
+        name: 'AdminHome',
         component: DefaultContainer,
         children: [
           {
