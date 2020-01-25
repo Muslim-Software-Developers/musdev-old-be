@@ -10,6 +10,10 @@ const Dashboard = () => import('../views/Dashboard')
 const Users = () => import('../views/users/Users')
 const User = () => import('../views/users/User')
 
+//Feedbacks
+const Feedbacks = () => import('../views/feedbacks/Feedbacks')
+const Feedback = () => import('../views/feedbacks/Feedback')
+
 //import { homedir } from 'os';
 
 Vue.use(Router)
@@ -17,7 +21,7 @@ Vue.use(Router)
 function configRoutes() {
     return [
       {
-        path: '/',
+        path: '/admin/',
         redirect: '/dashboard',
         name: 'Home',
         component: DefaultContainer,
@@ -28,7 +32,7 @@ function configRoutes() {
             component: Dashboard
           },
           {
-            path: 'users',
+            path: '/admin/users',
             meta: { label: 'Users'},
             component: {
               render (c) { return c('router-view') }
@@ -43,6 +47,25 @@ function configRoutes() {
                 meta: { label: 'User Details'},
                 name: 'User',
                 component: User,
+              },
+            ]
+          },
+          {
+            path: '/admin/feedbacks',
+            meta: { label: 'Feedbacks'},
+            component: {
+              render (c) { return c('router-view') }
+            },
+            children: [
+              {
+                path: '',
+                component: Feedbacks,
+              },
+              {
+                path: ':id',
+                meta: { label: 'Feedback Details'},
+                name: 'Feedback',
+                component: Feedback,
               },
             ]
           }

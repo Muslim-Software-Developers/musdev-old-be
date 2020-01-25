@@ -58614,21 +58614,30 @@ __webpack_require__.r(__webpack_exports__);
  //containers
 
 var DefaultContainer = function DefaultContainer() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
 }; //Views
 
 
 var Dashboard = function Dashboard() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
 }; // Users
 
 
 var Users = function Users() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
 };
 
 var User = function User() {
-  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/users/User */ "./resources/js/views/users/User.vue"));
+  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../views/users/User */ "./resources/js/views/users/User.vue"));
+}; //Feedbacks
+
+
+var Feedbacks = function Feedbacks() {
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/feedbacks/Feedbacks */ "./resources/js/views/feedbacks/Feedbacks.vue"));
+};
+
+var Feedback = function Feedback() {
+  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/feedbacks/Feedback */ "./resources/js/views/feedbacks/Feedback.vue"));
 }; //import { homedir } from 'os';
 
 
@@ -58636,7 +58645,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 function configRoutes() {
   return [{
-    path: '/',
+    path: '/admin/',
     redirect: '/dashboard',
     name: 'Home',
     component: DefaultContainer,
@@ -58645,7 +58654,7 @@ function configRoutes() {
       name: 'Dashboard',
       component: Dashboard
     }, {
-      path: 'users',
+      path: '/admin/users',
       meta: {
         label: 'Users'
       },
@@ -58664,6 +58673,27 @@ function configRoutes() {
         },
         name: 'User',
         component: User
+      }]
+    }, {
+      path: '/admin/feedbacks',
+      meta: {
+        label: 'Feedbacks'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: Feedbacks
+      }, {
+        path: ':id',
+        meta: {
+          label: 'Feedback Details'
+        },
+        name: 'Feedback',
+        component: Feedback
       }]
     }]
   }];
@@ -58833,13 +58863,13 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_custom.scss */"./resources/js/assets/scss/_custom.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_ie-fix.scss */"./resources/js/assets/scss/_ie-fix.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_variables.scss */"./resources/js/assets/scss/_variables.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/style.scss */"./resources/js/assets/scss/style.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/_variables.scss */"./resources/js/assets/scss/vendors/_variables.scss");
-module.exports = __webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/chart.js/chart.scss */"./resources/js/assets/scss/vendors/chart.js/chart.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_custom.scss */"./resources/js/assets/scss/_custom.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_ie-fix.scss */"./resources/js/assets/scss/_ie-fix.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_variables.scss */"./resources/js/assets/scss/_variables.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/style.scss */"./resources/js/assets/scss/style.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/_variables.scss */"./resources/js/assets/scss/vendors/_variables.scss");
+module.exports = __webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/chart.js/chart.scss */"./resources/js/assets/scss/vendors/chart.js/chart.scss");
 
 
 /***/ })
