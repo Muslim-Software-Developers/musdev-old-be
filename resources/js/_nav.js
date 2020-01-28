@@ -2,7 +2,7 @@ export default {
   items: [
     {
       name: 'Dashboard',
-      url: '/dashboard',
+      url: '/admin',
       icon: 'icon-speedometer',
       badge: {
         variant: 'primary',
@@ -11,8 +11,13 @@ export default {
     },
     {
       name: 'Users',
-      url: '/users',
+      url: '/admin/users',
       icon: 'icon-user'
+    },
+    {
+      name: 'Feedbacks',
+      url: '/admin/feedbacks',
+      icon: 'icon-bubble'
     }
   ]
 }

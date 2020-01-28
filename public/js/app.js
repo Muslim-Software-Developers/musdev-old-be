@@ -32004,7 +32004,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* .container{\n    font-family: 'Avenir', Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;  \n    margin-top: 60px;\n}\n\n.error {\n    color: red;\n} */\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Body Css here */\n.bgImage{\n    min-width: 100%;\n    position: relative;\n    top: 0px;\n    z-index: 1;\n}\n#bgImgPlain{\n    position: absolute;\n    top: 0px;\n    width: 100%;\n    height: 580px;\n    z-index: 2;\n}\n.landing-section{\n    position: relative;\n    top: 0px;\n    z-index: 3;\n}\n#imgIllustration-div{\n    margin-top: 55px;\n}\n#imgCode{\n    width: 100%;\n    height: auto;\n}\n.bg-text{\n    padding-top: 150px;\n    padding-left: 40px;\n    color: #ffffff;\n    font-weight: 600;\n    font-size: 25px;\n}\n#codingText{\n    font-size: 55px;\n}\n#butn{\n    border-radius: 20px;\n    width: 250px;\n    font-size: 20px;\n    font-weight: bold;\n    color: #3C7B5C;\n}\n.indexpage-content{\n  margin-top: 100px;\n    text-align: center;\n}\n.otherImg{\n    padding-top: 30px;\n    /* border: 1px solid red; */\n}\n.otherImg p{\n    padding-top: 10px;\n}\n.three-icons a{\n    font-size: 25px;\n    font-weight: bold;\n    color: #3C7B5C;\n}\np.three-icons-text a{\n    color: #3C7B5C;\n}\n.three-icons a:hover, .three-icons-text a:hover{\n    text-decoration: none;\n}\n#horizontal{\n    border: 2px solid #3C7B5C;\n}\n#sponsors{\n    font-size: 50px;\n    font-weight: bold;\n    text-align: center;\n    color: #3c7b5c;\n}\n.sponsors-logos{\n    width: 70%;\n    padding-bottom: 25px;\n}\n\n/* media queries */\n@media only screen and (max-width:575px) {\n.landing-section{\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: reverse;\n            -ms-flex-direction: column-reverse;\n                flex-direction: column-reverse;\n        text-align: center;\n}\n.bg-text{\n        font-size: 15px;\n        margin-top: -200px;\n        padding-right: 50px;\n}\n#codingText{\n        font-size: 25px;\n}\n#imgIllustration-div{\n        /* border: 1px solid red; */\n        top: -50px\n}\n#imgCode{\n        display: block;\n        margin-left: auto;\n        margin-right: auto;\n        width: 50%;\n}\n.indexpage-content{\n        padding-top: 200px;\n        font-size: 14px;\n}\n.indexpage-icons{\n        width: 70%;\n        margin: auto;\n}\n#sponsors{\n        font-size: 30px;\n}\n.sponsors-logos{\n        width: 30%;\n}\n}\n@media only screen and (min-width:576px) and (max-width:767px) {\n.landing-section{\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: reverse;\n            -ms-flex-direction: column-reverse;\n                flex-direction: column-reverse;\n        text-align: center;\n}\n.bg-text{\n        font-size: 15px;\n        margin-top: -200px;\n        padding-right: 50px;\n}\n#codingText{\n        font-size: 25px;\n}\n#imgIllustration-div{\n        /* border: 1px solid red; */\n        top: -50px\n}\n#imgCode{\n        display: block;\n        margin-left: auto;\n        margin-right: auto;\n        width: 50%;\n}\n.indexpage-content{\n        padding-top: 90px;\n        font-size: 17px;\n}\n.indexpage-icons{\n        width: 70%;\n        margin: auto;\n}\n#sponsors{\n        font-size: 30px;\n}\n.sponsors-logos{\n        width: 50%;\n}\n}\n@media only screen and (min-width:768px) and (max-width:991px) {\n.landing-section{\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: reverse;\n            -ms-flex-direction: column-reverse;\n                flex-direction: column-reverse;\n        text-align: center;\n}\n.bg-text{\n        font-size: 20px;\n        margin-top: -230px;\n        width: 70%;\n        margin-left: auto;\n        margin-right: auto;\n}\n#codingText{\n        font-size: 50px;\n}\n#imgIllustration-div{\n        /* border: 1px solid red; */\n        top: -50px\n}\n#imgCode{\n        display: block;\n        margin-left: auto;\n        margin-right: auto;\n        width: 40%;\n}\n.indexpage-content{\n        padding-top: 50px;\n        font-size: 17px;\n}\n.indexpage-icons{\n        width: 70%;\n        margin: auto;\n}\n#sponsors{\n        font-size: 30px;\n}\n.sponsors-logos{\n        width: 50%;\n}\n}\n@media only screen and (min-width: 992px){\n.indexpage-content{\n        /* padding-top: 100px; */\n        font-size: 17px;\n}\n}\n", ""]);
 
 // exports
 
@@ -58614,21 +58614,85 @@ __webpack_require__.r(__webpack_exports__);
  //containers
 
 var DefaultContainer = function DefaultContainer() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
-}; //Views
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainer */ "./resources/js/containers/DefaultContainer.vue"));
+};
+
+var DefaultContainerFe = function DefaultContainerFe() {
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(5)]).then(__webpack_require__.bind(null, /*! ../containers/DefaultContainerFe */ "./resources/js/containers/DefaultContainerFe.vue"));
+};
+/******************** User Frontend Components *****************/
+
+
+var Home = function Home() {
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(7)]).then(__webpack_require__.bind(null, /*! ../views/frontend/Home */ "./resources/js/views/frontend/Home.vue"));
+};
+
+var About = function About() {
+  return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/About */ "./resources/js/views/frontend/pages/About.vue"));
+};
+
+var Donnate = function Donnate() {
+  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Support */ "./resources/js/views/frontend/pages/Support.vue"));
+};
+
+var Contact = function Contact() {
+  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Contact */ "./resources/js/views/frontend/pages/Contact.vue"));
+};
+
+var Login = function Login() {
+  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Login */ "./resources/js/views/frontend/auth/Login.vue"));
+};
+
+var Register = function Register() {
+  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Register */ "./resources/js/views/frontend/auth/Register.vue"));
+};
+
+var ChangePassword = function ChangePassword() {
+  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ChangePassword */ "./resources/js/views/frontend/auth/ChangePassword.vue"));
+};
+
+var ResetPassword = function ResetPassword() {
+  return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ResetPassword */ "./resources/js/views/frontend/auth/ResetPassword.vue"));
+};
+
+var ForgotPassword = function ForgotPassword() {
+  return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ForgotPassword */ "./resources/js/views/frontend/auth/ForgotPassword.vue"));
+};
+
+var UserFe = function UserFe() {
+  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../views/frontend/user/User */ "./resources/js/views/frontend/user/User.vue"));
+};
+
+var UsersFe = function UsersFe() {
+  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../views/frontend/user/Users */ "./resources/js/views/frontend/user/Users.vue"));
+};
+
+var UserSettings = function UserSettings() {
+  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../views/frontend/user/UserSettings */ "./resources/js/views/frontend/user/UserSettings.vue"));
+};
+/******************** Admin Frontend Components ****************/
 
 
 var Dashboard = function Dashboard() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/Dashboard */ "./resources/js/views/Dashboard.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! ../views/admin/Dashboard */ "./resources/js/views/admin/Dashboard.vue"));
 }; // Users
 
 
 var Users = function Users() {
-  return Promise.all(/*! import() */[__webpack_require__.e(5), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! ../views/users/Users */ "./resources/js/views/users/Users.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, /*! ../views/admin/users/Users */ "./resources/js/views/admin/users/Users.vue"));
 };
 
 var User = function User() {
-  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/users/User */ "./resources/js/views/users/User.vue"));
+  return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ../views/admin/users/User */ "./resources/js/views/admin/users/User.vue"));
+}; //Feedbacks
+
+
+var Feedbacks = function Feedbacks() {
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedbacks */ "./resources/js/views/admin/feedbacks/Feedbacks.vue"));
+};
+
+var Feedback = function Feedback() {
+  return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedback */ "./resources/js/views/admin/feedbacks/Feedback.vue"));
 }; //import { homedir } from 'os';
 
 
@@ -58637,15 +58701,125 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 function configRoutes() {
   return [{
     path: '/',
-    redirect: '/dashboard',
-    name: 'Home',
+    redirect: '/home',
+    name: 'home',
+    component: DefaultContainerFe,
+    children: [{
+      path: 'home',
+      name: 'Frontend',
+      component: Home
+    }, {
+      path: '/home/about',
+      meta: {
+        label: 'About Us'
+      },
+      name: 'about',
+      component: About
+    }, {
+      path: '/home/members',
+      name: 'members',
+      meta: {
+        label: 'Members'
+      },
+      component: UsersFe,
+      children: [{
+        path: ':id',
+        meta: {
+          label: 'Member Details'
+        },
+        name: 'Member',
+        component: UserFe,
+        children: [{
+          path: 'settings',
+          meta: {
+            label: 'Member Profile Settings'
+          },
+          name: 'Member Profile Settings',
+          component: UserSettings
+        }]
+      }]
+    }, {
+      path: '/home/contact',
+      meta: {
+        label: 'Contact Us'
+      },
+      name: 'contact',
+      component: Contact
+    }, {
+      path: '/home/auth/signup',
+      meta: {
+        label: 'Join Us'
+      },
+      name: 'signup',
+      component: Register
+    }, {
+      path: '/home/auth/login',
+      meta: {
+        label: 'Login'
+      },
+      name: 'login',
+      component: Login
+    }, {
+      path: '/home/finance/donate',
+      meta: {
+        label: 'Donate'
+      },
+      name: 'donate',
+      component: Donnate
+    }, {
+      path: '/home/forgot-password',
+      meta: {
+        label: 'Forgot Password'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: ForgotPassword
+      }]
+    }, {
+      path: '/home/reset-password',
+      meta: {
+        label: 'Reset Password'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: ResetPassword
+      }]
+    }, {
+      path: '/home/change-password',
+      meta: {
+        label: 'Change Password'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: ChangePassword
+      }]
+    }]
+  }, {
+    path: '/admin/',
+    redirect: '/admin/dashboard',
+    name: 'AdminHome',
     component: DefaultContainer,
     children: [{
       path: 'dashboard',
       name: 'Dashboard',
       component: Dashboard
     }, {
-      path: 'users',
+      path: '/admin/users',
       meta: {
         label: 'Users'
       },
@@ -58664,6 +58838,27 @@ function configRoutes() {
         },
         name: 'User',
         component: User
+      }]
+    }, {
+      path: '/admin/feedbacks',
+      meta: {
+        label: 'Feedbacks'
+      },
+      component: {
+        render: function render(c) {
+          return c('router-view');
+        }
+      },
+      children: [{
+        path: '',
+        component: Feedbacks
+      }, {
+        path: ':id',
+        meta: {
+          label: 'Feedback Details'
+        },
+        name: 'Feedback',
+        component: Feedback
       }]
     }]
   }];
@@ -58833,13 +59028,13 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_custom.scss */"./resources/js/assets/scss/_custom.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_ie-fix.scss */"./resources/js/assets/scss/_ie-fix.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/_variables.scss */"./resources/js/assets/scss/_variables.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/style.scss */"./resources/js/assets/scss/style.scss");
-__webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/_variables.scss */"./resources/js/assets/scss/vendors/_variables.scss");
-module.exports = __webpack_require__(/*! /mnt/c/users/basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/chart.js/chart.scss */"./resources/js/assets/scss/vendors/chart.js/chart.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_custom.scss */"./resources/js/assets/scss/_custom.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_ie-fix.scss */"./resources/js/assets/scss/_ie-fix.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/_variables.scss */"./resources/js/assets/scss/_variables.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/style.scss */"./resources/js/assets/scss/style.scss");
+__webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/_variables.scss */"./resources/js/assets/scss/vendors/_variables.scss");
+module.exports = __webpack_require__(/*! /mnt/c/Users/Basttyy/documents/server/musdev-be/resources/js/assets/scss/vendors/chart.js/chart.scss */"./resources/js/assets/scss/vendors/chart.js/chart.scss");
 
 
 /***/ })

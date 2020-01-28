@@ -19,7 +19,7 @@ export default {
           data: this.data
         }
       ]
-    }, {
+    },{
       responsive: true,
       tooltips: {
         enabled: false,
