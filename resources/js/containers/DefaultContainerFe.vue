@@ -1,22 +1,8 @@
 <template>
   <div class="app">
-    <DefaultHeader/>
-    <div class="app-body">
-      <AppSidebar fixed>
-        <SidebarHeader/>
-        <SidebarForm/>
-        <SidebarNav :navItems="nav"></SidebarNav>
-        <SidebarFooter/>
-        <SidebarMinimizer/>
-      </AppSidebar>
-      <main class="main">
-        <Breadcrumb :list="list"/>
-        <div class="container-fluid">
-          <router-view></router-view>
-        </div>
-      </main>
-    </div>
-    <DefaultFooter/>
+    <DefaultHeaderFe/>
+    <router-view></router-view>
+    <DefaultFooterFe/>
   </div>
 </template>
 
@@ -24,9 +10,8 @@
 import nav from '../_navfe'
 import { Sidebar as AppSidebar, SidebarFooter, SidebarForm, SidebarHeader, SidebarMinimizer, SidebarNav, Breadcrumb } from '@coreui/vue'
 //import DefaultAside from './DefaultAside'
-import DefaultHeaderDropdownAccnt from './DefaultHeaderDropdownAccnt'
-import DefaultHeader from './DefaultHeader'
-import DefaultFooter from './DefaultFooterFe'
+import DefaultHeaderFe from './DefaultHeaderFe'
+import DefaultFooterFe from './DefaultFooterFe'
 
 export default {
   name: 'DefaultContainerFe',
@@ -35,14 +20,13 @@ export default {
     //AppAside,
     Breadcrumb,
     //DefaultAside,
-    DefaultHeaderDropdownAccnt,
     SidebarForm,
     SidebarFooter,
     SidebarHeader,
     SidebarNav,
     SidebarMinimizer,
-    DefaultFooter,
-    DefaultHeader
+    DefaultFooterFe,
+    DefaultHeaderFe
   },
   data () {
     return {
