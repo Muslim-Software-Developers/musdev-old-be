@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/_ie-fix.css">
         <link rel="stylesheet" href="css/_variables.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>CoreUI - Vue Open Source Bootstrap Admin Template</title>
+        <title>Musdev - Vue Open Source Bootstrap Admin Template</title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
