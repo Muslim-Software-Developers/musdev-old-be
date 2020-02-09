@@ -4,10 +4,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/users', function (Request $request) {
     return $request->user();
 });
-//device auth middleware
-Route::middleware('auth:api-iot')->get('/devices', function (Request $request) {
-    return $request->user();
-});
 
 //Auth::routes(['verify' => true]);
 
@@ -22,14 +18,6 @@ Route::group(['prefix' => 'v1/auth'], function ($router) {
     // Route::post('/user/facebook', 'CustomerController@loginFacebook');
     // Route::get('/oauth/token', 'CustomerController@redirect');
     // Route::get('/oauth/callback', 'CustomerController@callback');
-});
-//IoT Authentication
-Route::group(['prefix' => 'v1/auth'], function ($router) {
-    //device auth routes
-    Route::post('/device/login', 'Auth\ApiIot\AuthController@login');
-    Route::post('/device/logout', 'Auth\ApiIot\AuthController@logout');
-    Route::post('/device/register', 'Auth\ApiIot\AuthController@register');
-    Route::post('/device/profile', 'Auth\ApiIot\AuthController@me');
 });
 
 Route::get('v1/auth/email/verify/{id}', 'Auth\Api\VerificationApiController@verify')->name('verificationapi.verify');
