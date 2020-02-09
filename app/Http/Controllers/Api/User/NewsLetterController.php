@@ -19,20 +19,19 @@ class NewsLetterController extends Controller
 				if ( ! Newsletter::isSubscribed($request->email) ) 
 		        {
 		            Newsletter::subscribe($request->email);
-		            // dd(Newsletter::getLastError());
-		        	// dd(Newsletter::getLastError());
-
 		            return response()->json([
 		            	'status' => response::HTTP_CREATED,
 		            	'message' => 'Thank you for subscribing to our awesome newsletter!',
 		            	'data' => $request->email,
 		            ]);
 		        }
+
 		        return response()->json([
 	            	'status' => 422,
 	            	'message' => 'Oops! You are already subscribed to our newsletter.',
 	            	'data' => $request->email,
 	            ]);
+	            
 	    	} catch (\Exception $e) {
 	    		return response()->json([
 	    			'status' => response::HTTP_INTERNAL_SERVER_ERROR,
