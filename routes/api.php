@@ -20,14 +20,25 @@ Route::group(['prefix' => 'v1/auth'], function ($router) {
     // Route::get('/oauth/callback', 'CustomerController@callback');
 });
 
-Route::get('v1/auth/email/verify/{id}', 'Auth\Api\VerificationApiController@verify')->name('verificationapi.verify');
-Route::get('v1/auth/email/resend', 'Auth\Api\VerificationApiController@resend')->name('verificationapi.resend');
-Route::post('v1/auth/resetpassword', 'Auth\Api\ResetPasswordController@sendResetLink');
-Route::put('v1/auth/resetpassword', 'Auth\Api\ResetPasswordController@resetPassword');
-Route::put('v1/auth/changepassword', 'Auth\Api\ResetPasswordController@changePassword');
+Route::group(['prefix' => 'v1'],  function(){
+
+    Route::group(['namespace' => 'Auth\Api'], function(){
+        Route::get('/auth/email/verify/{id}', 'VerificationApiController@verify')->name('verificationapi.verify');
+        Route::get('/auth/email/resend', 'VerificationApiController@resend')->name('verificationapi.resend');
+        Route::post('/auth/resetpassword', 'ResetPasswordController@sendResetLink');
+        Route::put('/auth/resetpassword', 'ResetPasswordController@resetPassword');
+        Route::put('/auth/changepassword', 'ResetPasswordController@changePassword');
+    });
+
+    Route::group(['namespace' => 'Api\User'], function(){
+        Route::post('contact-us', 'ContactUsController@store');
+        Route::post('newsletter', 'NewsLetterController@store');
+    });
+});
+
 
 Route::apiResources([
     '/v1/users' => 'Api\UserController',
     '/v1/users/{id}/feedbacks' => 'Api\UserController',
-    '/v1/feedbacks' => 'Api\FeedbackController'
+    '/v1/feedbacks' => 'Api\FeedbackController',
 ]);
