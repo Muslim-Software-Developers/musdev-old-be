@@ -19,7 +19,7 @@
         gtag('js', new Date());
         // Shared ID
         gtag('config', 'UA-118965717-3');
-        // Vue.js ID
+        // Vue.js ID.
         gtag('config', 'UA-118965717-7');
         </script>
     </head>
