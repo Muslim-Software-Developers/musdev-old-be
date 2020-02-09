@@ -18,11 +18,7 @@ class UserCollection extends Resource
             'name' => $this->name,
             'email' => $this->email,
             'avatar' => $this->avatar,
-            'credit_card' => $this->credit_card,
             'address' => $this->address,
-            'country' => $this->country,
-            'state' => $this->state,
-            'city' => $this->city,
             'access_level' => $this->id === auth()->user()->id ?    //check if authenticated user is same as the user resource to return the right access_level
                 auth()->user()->roles()->first()->name :
                 $this->roles()->first()->name,
