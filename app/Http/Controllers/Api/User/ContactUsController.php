@@ -14,7 +14,6 @@ class ContactUsController extends Controller
 {
 
     public function store(ContactUsRequest $request) {
-    	$request = $request->validated();
     	
     	DB::beginTransaction();
 	    	try {
