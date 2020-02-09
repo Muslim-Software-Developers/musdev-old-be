@@ -62,13 +62,13 @@ export default {
     /* width: 100%; */
     margin: 20px;
     padding-top: 55px;
-    font-size: 20px;   
+    font-size: 20px;
 }
 
-.aboutpage-content>.about-section {
-    /* padding-left: 60px;
-    padding-bottom: 50px; */
-}
+/* .aboutpage-content>.about-section {
+    padding-left: 60px;
+    padding-bottom: 50px;
+} */
 
 .aboutpage-content>.about-section>.abt-header {
     padding-bottom: 15px;

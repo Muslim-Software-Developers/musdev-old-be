@@ -58628,47 +58628,47 @@ var Home = function Home() {
 };
 
 var About = function About() {
-  return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/About */ "./resources/js/views/frontend/pages/About.vue"));
+  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/About */ "./resources/js/views/frontend/pages/About.vue"));
 };
 
 var Donnate = function Donnate() {
-  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Support */ "./resources/js/views/frontend/pages/Support.vue"));
+  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Support */ "./resources/js/views/frontend/pages/Support.vue"));
 };
 
 var Contact = function Contact() {
-  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Contact */ "./resources/js/views/frontend/pages/Contact.vue"));
+  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ../views/frontend/pages/Contact */ "./resources/js/views/frontend/pages/Contact.vue"));
 };
 
 var Login = function Login() {
-  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Login */ "./resources/js/views/frontend/auth/Login.vue"));
+  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Login */ "./resources/js/views/frontend/auth/Login.vue"));
 };
 
 var Register = function Register() {
-  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Register */ "./resources/js/views/frontend/auth/Register.vue"));
+  return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/Register */ "./resources/js/views/frontend/auth/Register.vue"));
 };
 
 var ChangePassword = function ChangePassword() {
-  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ChangePassword */ "./resources/js/views/frontend/auth/ChangePassword.vue"));
+  return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ChangePassword */ "./resources/js/views/frontend/auth/ChangePassword.vue"));
 };
 
 var ResetPassword = function ResetPassword() {
-  return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ResetPassword */ "./resources/js/views/frontend/auth/ResetPassword.vue"));
+  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ResetPassword */ "./resources/js/views/frontend/auth/ResetPassword.vue"));
 };
 
 var ForgotPassword = function ForgotPassword() {
-  return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ForgotPassword */ "./resources/js/views/frontend/auth/ForgotPassword.vue"));
+  return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ../views/frontend/auth/ForgotPassword */ "./resources/js/views/frontend/auth/ForgotPassword.vue"));
 };
 
 var UserFe = function UserFe() {
-  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ../views/frontend/user/User */ "./resources/js/views/frontend/user/User.vue"));
+  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../views/frontend/user/User */ "./resources/js/views/frontend/user/User.vue"));
 };
 
 var UsersFe = function UsersFe() {
-  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../views/frontend/user/Users */ "./resources/js/views/frontend/user/Users.vue"));
+  return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ../views/frontend/user/Users */ "./resources/js/views/frontend/user/Users.vue"));
 };
 
 var UserSettings = function UserSettings() {
-  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ../views/frontend/user/UserSettings */ "./resources/js/views/frontend/user/UserSettings.vue"));
+  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ../views/frontend/user/UserSettings */ "./resources/js/views/frontend/user/UserSettings.vue"));
 };
 /******************** Admin Frontend Components ****************/
 
@@ -58679,7 +58679,7 @@ var Dashboard = function Dashboard() {
 
 
 var Users = function Users() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(9)]).then(__webpack_require__.bind(null, /*! ../views/admin/users/Users */ "./resources/js/views/admin/users/Users.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(11)]).then(__webpack_require__.bind(null, /*! ../views/admin/users/Users */ "./resources/js/views/admin/users/Users.vue"));
 };
 
 var User = function User() {
@@ -58688,7 +58688,7 @@ var User = function User() {
 
 
 var Feedbacks = function Feedbacks() {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedbacks */ "./resources/js/views/admin/feedbacks/Feedbacks.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(10)]).then(__webpack_require__.bind(null, /*! ../views/admin/feedbacks/Feedbacks */ "./resources/js/views/admin/feedbacks/Feedbacks.vue"));
 };
 
 var Feedback = function Feedback() {
