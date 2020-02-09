@@ -32,6 +32,7 @@ Route::group(['prefix' => 'v1'],  function(){
 
     Route::group(['namespace' => 'Api\User'], function(){
         Route::post('contact-us', 'ContactUsController@store');
+        Route::post('newsletter', 'NewsLetterController@store');
     });
 });
 
