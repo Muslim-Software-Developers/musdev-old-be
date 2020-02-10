@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests\Auth;
+namespace App\Http\Requests\User;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
@@ -8,7 +8,7 @@ use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Response;
 
-class StoreUserRequest extends FormRequest
+class UserLoginRequest extends FormRequest
 {
     public function failedValidation(Validator $validator) { 
         throw new HttpResponseException(response()->json([
@@ -36,16 +36,14 @@ class StoreUserRequest extends FormRequest
     public function rules()
     {
         return [
-            'email' => 'required|string|email|max:255|unique:users',
+            'email' => 'required|string|email|max:255',
             'password' => 'required|string|min:8',
-            'name' => 'required|string|max:255'
         ];
     }
 
     public function messages()
     {
         return [
-            'name.required' => 'Name field is required!',
             'email.required' => 'Email field is required and must be unique!',
             'password.required' => 'Password field is required!',
         ];

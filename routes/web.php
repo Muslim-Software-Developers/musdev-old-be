@@ -16,5 +16,10 @@ Route::get('/{any}', function () {
 })->where('any', '^(?!api).*$');
 //where('any', '^(?!api)(?!email).*$');
 
+//first 
+ Auth::routes();
+
+Auth::routes(['verify' => true]);
+
 Route::post('/#auth/password/reset', 'Auth\Api\ResetPasswordController@sendResetLink')->name('password.reset');
 //Route::get('auth/email/verify/{id}', 'Auth\Api\VerificationApiController@verify')->name('verificationapi.verify');
