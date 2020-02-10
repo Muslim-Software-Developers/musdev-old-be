@@ -15,12 +15,15 @@ Route::group(['prefix' => 'v1/auth'], function ($router) {
     Route::post('/logout', 'Auth\Api\AuthController@logout');
     Route::post('/refresh', 'Auth\Api\AuthController@refresh');
     Route::get('/profile', 'Auth\Api\AuthController@me');
-    // Route::post('/user/facebook', 'CustomerController@loginFacebook');
-    // Route::get('/oauth/token', 'CustomerController@redirect');
-    // Route::get('/oauth/callback', 'CustomerController@callback');
 });
 
 Route::group(['prefix' => 'v1'],  function(){
+    
+    Route::group(['prefix' => 'member', 'namespace' => 'Api\Member'],  function(){
+        Route::post('create', 'AuthController@store');
+        Route::post('login', 'AuthController@login');
+    });
+
 
     Route::group(['namespace' => 'Auth\Api'], function(){
         Route::get('/auth/email/verify/{id}', 'VerificationApiController@verify')->name('verificationapi.verify');

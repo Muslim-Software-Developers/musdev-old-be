@@ -15,7 +15,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class User extends Authenticatable implements JWTSubject, MustVerifyEmail, CanResetPasswordInterface
 {
-    //use billable;
     use CanResetPasswordTrait;
     use Notifiable;
     use softDeletes;
@@ -48,9 +47,8 @@ class User extends Authenticatable implements JWTSubject, MustVerifyEmail, CanRe
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'access_level', 'admin_id', 'credit_card', 'address',
-        'city', 'region', 'postal_code', 'country', 'mob_phone',
-        'activated', 'avatar', 'remember_token'
+        'name', 'email', 'password', 'phone_number',
+        'address', 'avatar', 'remember_token', 'email_verified_at'
     ];
 
     /**

@@ -19,13 +19,7 @@ class UserResource extends JsonResource
             'name' => $this->name,
             'email' => $this->email,
             'avatar' => $this->avatar,
-            'credit_card' => null,
-            'address' => $this->address,
-            'country' => $this->country,
-            'state' => $this->state,
-            'city' => $this->city,
-            'postal_code' => $this->postal_code,
-            'phone_num' => $this->mob_phone,
+            'phone_number' => $this->phone_number,
             'access_level' => $this->roles()->first()->name
             //'access_level' => $this->id === auth()->user()->id ? auth()->user()->roles()->first()->name : $this->roles()->first()->name
         ];
